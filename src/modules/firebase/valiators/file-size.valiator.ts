@@ -8,7 +8,6 @@ export type sth = {
 @Injectable()
 export class FileMimValidator extends FileValidator<sth> {
   isValid(file?: any): boolean | Promise<boolean> {
-    // console.log('file: **********************');
     if (!file)
       throw new BadRequestException(ValidationErrorCodes['FileRequired']);
     else return true;
