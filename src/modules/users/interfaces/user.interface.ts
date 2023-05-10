@@ -4,4 +4,6 @@ export interface User {
   email: string;
   password: string;
   age: number;
+  isDeleted: boolean;
+  DeletedAt: string;
 }

@@ -8,6 +8,8 @@ import * as admin from 'firebase-admin';
 import { redisStore } from 'cache-manager-redis-yet';
 import { FirebaseAdminModule } from '@tfarras/nestjs-firebase-admin';
 import { cert } from 'firebase-admin/app';
+import { EventEmitterModule } from '@nestjs/event-emitter';
+import { ScheduleModule } from '@nestjs/schedule';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -18,6 +20,10 @@ import jwtConfig from './config/jwt.config';
 import firebaseConfig from './config/firebase.config';
 import redisConfig from './config/redis.config';
 import { FirebaseModule } from './modules/firebase/firebase.module';
+import { UserLogsModule } from './modules/userLogs/userLogs.module';
+import { TasksModule } from './modules/tasks/tasks.module';
+import { SimplifiModule } from './modules/simplifi/simplifi.module';
+import simplifiConfig from './config/simplifi.config';
 
 const serviceAccount = require('../serviceAccountKey.json');
 
@@ -26,8 +32,16 @@ const serviceAccount = require('../serviceAccountKey.json');
     BookModule,
     AuthModule,
     FirebaseModule,
+    UserLogsModule,
+    SimplifiModule,
     ConfigModule.forRoot({
-      load: [jwtConfig, databaseConfig, redisConfig, firebaseConfig],
+      load: [
+        jwtConfig,
+        databaseConfig,
+        redisConfig,
+        firebaseConfig,
+        simplifiConfig,
+      ],
       isGlobal: true,
       cache: true,
       validationOptions: {
@@ -44,7 +58,6 @@ const serviceAccount = require('../serviceAccountKey.json');
       },
       inject: [ConfigService],
     }),
-
     CacheModule.registerAsync({
       imports: [ConfigModule],
       isGlobal: true,
@@ -59,7 +72,6 @@ const serviceAccount = require('../serviceAccountKey.json');
       }),
       inject: [ConfigService],
     }),
-
     FirebaseAdminModule.forRootAsync({
       imports: [ConfigModule],
       useFactory: (configService: ConfigService) => {
@@ -73,6 +85,9 @@ const serviceAccount = require('../serviceAccountKey.json');
       },
       inject: [ConfigService],
     }),
+    EventEmitterModule.forRoot(),
+    ScheduleModule.forRoot(),
+    TasksModule,
   ],
   controllers: [AppController],
   providers: [AppService],

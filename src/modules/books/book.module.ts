@@ -33,6 +33,14 @@ const AutoIncrement = require('mongoose-sequence');
     ]),
   ],
   controllers: [BookController],
-  providers: [BookService, BookRepository, UniqueTitleValidation],
+  providers: [
+    BookService,
+    BookRepository,
+    UniqueTitleValidation,
+    // {
+    //   provide: APP_GUARD,
+    //   useClass: ThrottlerGuard,
+    // },
+  ],
 })
 export class BookModule {}

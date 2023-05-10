@@ -1,4 +1,13 @@
-import { Body, Controller, Get, Post, Req, UseGuards } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Delete,
+  Get,
+  Post,
+  Req,
+  UseGuards,
+} from '@nestjs/common';
+import { SkipThrottle, Throttle, ThrottlerGuard } from '@nestjs/throttler';
 
 import { AuthService } from './auth.service';
 import { ChangePasswordDto } from './dtos/changePassword.dto';
@@ -9,6 +18,7 @@ import { JwtAuthGuard } from './guards/jwt-auth.guard';
 import { LocalAuthGuard } from './guards/local-auth.guard';
 
 @Controller('auth')
+@UseGuards(ThrottlerGuard)
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
 
@@ -18,6 +28,12 @@ export class AuthController {
     return this.authService.findById(req.user._id);
   }
 
+  @Get('subscripe')
+  @UseGuards(JwtAuthGuard)
+  async subscripe(@Req() req) {
+    return this.authService.subscripe(req.user._id);
+  }
+
   @Post('changepassword')
   @UseGuards(JwtAuthGuard)
   changepassword(@Req() req, @Body() body: ChangePasswordDto) {
@@ -25,12 +41,14 @@ export class AuthController {
   }
 
   @Post('login')
+  @SkipThrottle()
   @UseGuards(LocalAuthGuard)
   login(@Req() req) {
     return this.authService.login(req.user);
   }
 
   @Post('register')
+  @Throttle(1, 10)
   register(@Body() user: RegisterDto) {
     return this.authService.register(user);
   }
@@ -43,13 +61,18 @@ export class AuthController {
   @Post('resetpassword')
   @UseGuards(JwtAuthGuard)
   resetPassword(@Req() req, @Body() body: ResetPasswordDto) {
-    console.log('body: ', body);
-    console.log('req: ', req.user._id);
     return this.authService.resetPassword(req.user._id, body);
   }
 
-  // @Post('test')
-  // test(@Body() body: any) {
-  //   throw new UnauthorizedException(ErrorCodes.UNAUTHORIZED_ERROR);
-  // }
+  @Delete('deleteUser')
+  @UseGuards(JwtAuthGuard)
+  deleteUser(@Req() req) {
+    return this.authService.deleteUser(req.user._id);
+  }
+
+  @Get('report')
+  @UseGuards(JwtAuthGuard)
+  report(@Req() req) {
+    return this.authService.reportReq(req.user._id);
+  }
 }

@@ -1,16 +1,26 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
+import { SchedulerRegistry } from '@nestjs/schedule';
 import { IServiceInterface } from 'src/Interfaces/IService.interface';
 
 import { RegisterDto } from '../auth/dtos/register.dto';
 
 import { UserRepository } from './repositories/user.repository';
-
 @Injectable()
 export class UserService {
-  constructor(private readonly userRepository: UserRepository) {}
+  private readonly logger = new Logger(UserService.name);
+  constructor(
+    private readonly userRepository: UserRepository,
+    private schedulerRegistry: SchedulerRegistry,
+  ) {}
+
+  // onModuleInit() {
+  //   this.schemaModel.collection.watch<SchemaDocument>().on('change', (e) => {
+  //     console.log(e)
+  //   })
+  // }
 
   async create(registerDto: RegisterDto): Promise<IServiceInterface> {
-    await this.userRepository.create(registerDto);
+    await this.userRepository.create('hello last', registerDto);
     return { data: { message: 'User created successfully' } };
   }
 
@@ -18,26 +28,41 @@ export class UserService {
     const data = await this.userRepository.findOne(_filter, _projection);
     return { data };
   }
-
-  async updateOne(_filter, _update): Promise<IServiceInterface> {
-    const changePasswordC = await this.userRepository.updateOne(
-      _filter,
-      _update,
-    );
-    return changePasswordC;
+  async findAll(): Promise<IServiceInterface> {
+    const data = await this.userRepository.findAll();
+    return { data };
   }
 
-  // async findbyEmail(email: string): Promise<IServiceInterface> {
-  //   try {
-  //     const data = await this.userRepository.findOne({ email });
-  //     return { data };
-  //   } catch (exception) {
-  //     throw new InternalServerErrorException(ErrorCodes.UNEXPECTED_ERROR);
-  //   }
-  // }
+  async updateOne(_filter, _update): Promise<IServiceInterface> {
+    return await this.userRepository.updateOne(_filter, _update);
+  }
 
-  // async findbyUsername(username: string): Promise<IServiceInterface> {
-  //   const data = await this.userRepository.findOne({ username });
-  //   return { data };
-  // }
+  async updateStatus(): Promise<IServiceInterface> {
+    return await this.userRepository.updateMany(
+      { subscriptionEnds: { $lte: Date.now() } },
+      {
+        $set: {
+          status: 'free',
+        },
+      },
+    );
+  }
+
+  async deleteUser(_id): Promise<IServiceInterface> {
+    return { data: await this.updateOne({ _id }, { deletedAt: Date.now() }) };
+  }
+
+  async restoreUser(_id): Promise<IServiceInterface> {
+    return { data: await this.updateOne({ _id }, { deletedAt: null }) };
+  }
+
+  async subscripe(_id): Promise<IServiceInterface> {
+    const subEnds = new Date().setDate(new Date().getDate() + 10);
+    return {
+      data: await this.updateOne(
+        { _id },
+        { subscriptionEnds: subEnds, status: 'premium' },
+      ),
+    };
+  }
 }

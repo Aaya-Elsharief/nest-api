@@ -1,4 +1,9 @@
 export const ErrorCodes = {
+  SIMPLIFI_ERROR: {
+    code: 'SIMPLIFI_ERROR',
+    feedBack: {},
+  },
+
   INVALID_PARAMS: {
     code: 'INVALID_PARAMS',
     message: {
@@ -20,6 +25,13 @@ export const ErrorCodes = {
     message: {
       en: 'unauth',
       ar: ' يرجى المحاولة لاحقاً',
+    },
+  },
+  TOO_MANY_REQUESTS: {
+    code: 'TOO_MANY_REQUESTS',
+    message: {
+      en: 'too many requests, try again later',
+      ar: 'محاولات كثيرة، يرجى المحاولة مرة أخرى لاحقاً',
     },
   },
   UNSUPPORTED_FILE_EXT: {

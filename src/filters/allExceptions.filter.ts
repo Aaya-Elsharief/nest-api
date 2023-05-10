@@ -9,6 +9,7 @@ import { HttpAdapterHost } from '@nestjs/core';
 import { ErrorCodes } from 'src/constants/error-codes';
 import { BadRequestResponse } from 'src/responses/bad-request.response';
 import { InternalServerErrorResponse } from 'src/responses/internal-server-error.response';
+import { TooManyRequestsResponse } from 'src/responses/too-many-requests.response';
 import { UnauthorizedResponse } from 'src/responses/un-authorized.response';
 
 @Catch()
@@ -28,6 +29,7 @@ export class AllExceptionsFilter implements ExceptionFilter {
     switch (httpStatus) {
       case HttpStatus.BAD_REQUEST:
         if (exception instanceof HttpException) {
+          // console.log('exception: ', exception);
           responseBody = new BadRequestResponse(exception.getResponse());
           // console.log('responseBody: ', responseBody);
         } else responseBody = new BadRequestResponse();
@@ -39,6 +41,11 @@ export class AllExceptionsFilter implements ExceptionFilter {
         if (exception instanceof HttpException) {
           responseBody = new UnauthorizedResponse(exception.getResponse());
         } else responseBody = new UnauthorizedResponse();
+        httpAdapter.reply(ctx.getResponse(), responseBody, httpStatus);
+        break;
+
+      case HttpStatus.TOO_MANY_REQUESTS:
+        responseBody = new TooManyRequestsResponse();
         httpAdapter.reply(ctx.getResponse(), responseBody, httpStatus);
         break;
 

@@ -1,12 +1,15 @@
 import { ValidationPipe } from '@nestjs/common';
 import { HttpAdapterHost, NestFactory } from '@nestjs/core';
 import { useContainer } from 'class-validator';
+// import express from 'express';
+// import * as functions from 'firebase-functions';
 
 import { AppModule } from './app.module';
 import { ValidationExceptionFactory } from './exceptions/exception-factory.exceptions';
 import { AllExceptionsFilter } from './filters/allExceptions.filter';
 import { LoggingInterceptor } from './interceptors/logging.interceptor';
 
+// const server = express();
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   useContainer(app.select(AppModule), { fallbackOnErrors: true });

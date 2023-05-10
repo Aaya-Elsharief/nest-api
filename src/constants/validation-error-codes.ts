@@ -64,8 +64,8 @@ export const ValidationErrorCodes = {
     ar: 'يجب أن تكون القيمة إحدى القيم المسموح بها',
   },
   isValidDate: {
-    en: 'The parameter must be one of the allowed values',
-    ar: 'يجب أن تكون القيمة إحدى القيم المسموح بها',
+    en: 'The parameter must be with this format YYYY-MM-DD HH:mm:ss',
+    ar: '  يجب أن تكون القيمة بهذه الصيغة YYYY-MM-DD HH:mm:ss  ',
   },
   isMongoId: { en: 'must be a mongodb id', ar: 'يجب أن يكون قيمة صحيحة' },
   isInstance: { en: 'must be an instance', ar: 'يجب أن يكون من النوع الصحيح' },

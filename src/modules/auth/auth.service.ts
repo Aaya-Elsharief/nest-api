@@ -2,12 +2,13 @@ import { BadRequestException, Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { IServiceInterface } from 'src/Interfaces/IService.interface';
 import * as bcrypt from 'bcrypt';
-import * as nodemailer from 'nodemailer';
 import { ValidationErrorCodes } from 'src/constants/validation-error-codes';
+import { sendEmail } from 'src/helpers/sendEmail';
 
 import { User } from '../users/interfaces/user.interface';
 import { UserService } from '../users/user.service';
 import { RegisterDto } from '../auth/dtos/register.dto';
+import { UserLogsService } from '../userLogs/userLogs.service';
 
 import { ChangePasswordDto } from './dtos/changePassword.dto';
 import { ResetPasswordDto } from './dtos/resetPassword.dto';
@@ -17,12 +18,15 @@ export class AuthService {
   constructor(
     private jwtService: JwtService,
     private userSercive: UserService,
+    private userLogsService: UserLogsService,
   ) {}
 
   async validateUser(findBy: any, password: string): Promise<User> {
     const { data } = await this.userSercive.findUser(findBy, {});
     if (data && (await bcrypt.compare(password, data.password))) {
+      data.deletedAt ? this.userSercive.restoreUser(data._id) : null;
       const { password, ...result } = data;
+      // console.log('result: ', result);
       return result;
     }
 
@@ -77,31 +81,19 @@ export class AuthService {
       expiresIn: '1h',
     });
     const resetURL = `/${link}?token=${token}`;
-    this.sendEmail(email, resetURL);
+    sendEmail(email, resetURL, 'Reset password');
     return { data: 'Check your Email' };
   }
 
-  async sendEmail(email: string, url: string): Promise<IServiceInterface> {
-    const transporter = nodemailer.createTransport({
-      host: 'smtp.ethereal.email',
-      port: 587,
-      auth: {
-        user: 'tito.gorczany@ethereal.email',
-        pass: '8R6WJZ2tGRREX3y75V',
-      },
-    });
-    // console.log('transporter: ', transporter);
+  async reportReq(_id: string): Promise<IServiceInterface> {
+    return this.userLogsService.getReport(_id);
+  }
 
-    // send mail with defined transport object
-    const info = await transporter.sendMail({
-      from: '<nestjs@example.com>',
-      to: email,
-      subject: 'Reset password',
-      text: `Hello world? \n ${url}`,
-      html: '<b>Hello world?</b> ' + `<a href=${url}>Reset password </a>`,
-    });
-    // console.log('info: ', info);
+  async deleteUser(_id: string): Promise<IServiceInterface> {
+    return await this.userSercive.deleteUser(_id);
+  }
 
-    return { data: info };
+  async subscripe(_id: string): Promise<IServiceInterface> {
+    return await this.userSercive.subscripe(_id);
   }
 }

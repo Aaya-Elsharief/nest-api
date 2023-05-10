@@ -5,6 +5,7 @@ import { Connection } from 'mongoose';
 
 import { UserRepository } from './repositories/user.repository';
 import { User, UserSchema } from './schemas/user.schema';
+import { userStatus } from './tasks/status.task';
 import { UserService } from './user.service';
 
 const AutoIncrement = require('mongoose-sequence');
@@ -23,7 +24,7 @@ const AutoIncrement = require('mongoose-sequence');
       },
     ]),
   ],
-  providers: [UserService, UserRepository],
+  providers: [UserService, UserRepository, userStatus],
   exports: [UserService, UserRepository],
 })
 export class UserModule {}

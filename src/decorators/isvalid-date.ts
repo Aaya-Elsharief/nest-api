@@ -26,6 +26,7 @@ export class IsValidDateRule implements ValidatorConstraintInterface {
       return false;
     }
     const date = moment(value, 'YYYY-MM-DD HH:mm:ss', true);
+    console.log('date: ', date);
     if (!date.isValid()) {
       return false;
     }

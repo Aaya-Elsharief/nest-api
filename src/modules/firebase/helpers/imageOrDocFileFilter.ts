@@ -14,8 +14,7 @@ export const imageOrDocFileFilter = (req, file, cb) => {
   if (
     !acceptableCongfig.acceptableExtensions.includes(ext.toLocaleLowerCase())
   ) {
-    console.log('acceptableCongfig: ', acceptableCongfig.acceptableExtensions);
-
+    // console.log('acceptableCongfig: ', acceptableCongfig.acceptableExtensions);
     return cb(new BadRequestException(ErrorCodes.UNSUPPORTED_FILE_EXT), null);
   }
 

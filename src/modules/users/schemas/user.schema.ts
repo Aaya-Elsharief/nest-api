@@ -59,15 +59,26 @@ export class User {
 
   @Prop({ type: Number, required: true, min: 13, max: 50 })
   age: number;
+
+  @Prop({ type: String, enum: ['free', 'premium'], default: 'free' })
+  status: string;
+
+  @Prop({ type: Date, default: null })
+  subscriptionEnds: Date;
+
+  @Prop({ type: Date, default: null })
+  deletedAt: Date;
+
+  lastOne?: string;
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
 
 UserSchema.index({ username: 1, email: 1 }, { unique: true });
-UserSchema.index({ 'address.building': 1 });
-UserSchema.index({ username: 'text', email: 'text' });
-UserSchema.index(
-  { username: 1 },
-  { partialFilterExpression: { age: { $gte: 20 } } },
-);
-UserSchema.index({ createdAt: 1 }, { expireAfterSeconds: 36000 });
+// UserSchema.index({ 'address.building': 1 });
+// UserSchema.index({ username: 'text', email: 'text' });
+// UserSchema.index(
+//   { username: 1 },
+//   { partialFilterExpression: { age: { $gte: 20 } } },
+// );
+UserSchema.index({ deletedAt: 1 }, { expireAfterSeconds: 30 });
