@@ -37,4 +37,3 @@ lerna-debug.log*
 
 .env
 src/modules/simplifi/
-functions/
