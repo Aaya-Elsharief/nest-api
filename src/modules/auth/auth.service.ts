@@ -24,9 +24,11 @@ export class AuthService {
   async validateUser(findBy: any, password: string): Promise<User> {
     const { data } = await this.userSercive.findUser(findBy, {});
     if (data && (await bcrypt.compare(password, data.password))) {
-      data.deletedAt ? this.userSercive.restoreUser(data._id) : null;
+      if (data.deletedAt) {
+        this.userSercive.restoreUser(data._id);
+      }
+      // eslint-disable-next-line unused-imports/no-unused-vars, @typescript-eslint/no-unused-vars
       const { password, ...result } = data;
-      // console.log('result: ', result);
       return result;
     }
 
