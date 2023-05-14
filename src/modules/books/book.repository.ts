@@ -22,12 +22,12 @@ export class BookRepository {
   }
 
   async updateOne(_filter, _update): Promise<IServiceInterface> {
-    const createBook = await this.bookModel.updateOne(_filter, _update);
+    const createBook = this.bookModel.updateOne(_filter, _update);
     return { data: createBook };
   }
 
   async findOne(_filter: any, _projection?: any): Promise<IServiceInterface> {
-    const data = await this.bookModel.findOne(_filter, _projection);
+    const data = this.bookModel.findOne(_filter, _projection);
     return { data };
   }
 
@@ -39,10 +39,10 @@ export class BookRepository {
   ): Promise<IServiceInterface> {
     let data: any;
     await session.withTransaction(async () => {
-      await this.bookModel.updateMany(_filter, _update, _options);
-      await this.bookModel.deleteOne(_filter);
+      this.bookModel.updateMany(_filter, _update, _options);
+      this.bookModel.deleteOne(_filter);
 
-      return (data = { message: 'trans done' });
+      return { data: { message: 'trans done' } };
     });
     await session.endSession();
     return { data };

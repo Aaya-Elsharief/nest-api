@@ -6,6 +6,7 @@ import { SimplifiService } from './simplifi.service';
 
 @Module({
   imports: [HttpModule],
+  // imports: [HttpModule],
   controllers: [SimplifiController],
   providers: [SimplifiService],
 })

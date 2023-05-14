@@ -18,7 +18,7 @@ export class BuildingDetails {
 const BuildingDetailsSchema = SchemaFactory.createForClass(BuildingDetails);
 
 @Schema({ autoIndex: false, _id: false })
-export class addressDetails {
+export class AddressDetails {
   @Prop({ type: String, required: true, trim: true })
   city: string;
 
@@ -29,7 +29,7 @@ export class addressDetails {
   building: BuildingDetails[];
 }
 
-const addressDetailsSchema = SchemaFactory.createForClass(addressDetails);
+const addressDetailsSchema = SchemaFactory.createForClass(AddressDetails);
 
 @Schema({ timestamps: true })
 export class User {
@@ -55,7 +55,7 @@ export class User {
   password: string;
 
   @Prop({ type: [addressDetailsSchema], required: true })
-  address: addressDetails[];
+  address: AddressDetails[];
 
   @Prop({ type: Number, required: true, min: 13, max: 50 })
   age: number;
@@ -75,10 +75,4 @@ export class User {
 export const UserSchema = SchemaFactory.createForClass(User);
 
 UserSchema.index({ username: 1, email: 1 }, { unique: true });
-// UserSchema.index({ 'address.building': 1 });
-// UserSchema.index({ username: 'text', email: 'text' });
-// UserSchema.index(
-//   { username: 1 },
-//   { partialFilterExpression: { age: { $gte: 20 } } },
-// );
 UserSchema.index({ deletedAt: 1 }, { expireAfterSeconds: 30 });

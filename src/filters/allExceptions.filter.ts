@@ -29,11 +29,8 @@ export class AllExceptionsFilter implements ExceptionFilter {
     switch (httpStatus) {
       case HttpStatus.BAD_REQUEST:
         if (exception instanceof HttpException) {
-          // console.log('exception: ', exception);
           responseBody = new BadRequestResponse(exception.getResponse());
-          // console.log('responseBody: ', responseBody);
         } else responseBody = new BadRequestResponse();
-        // console.log('\n responseBody: ', responseBody);
         httpAdapter.reply(ctx.getResponse(), responseBody, httpStatus);
         break;
 

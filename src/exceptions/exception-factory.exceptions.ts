@@ -8,12 +8,9 @@ export class ErrorRules {
 }
 
 export const ValidationExceptionFactory = (errors: ValidationError[]) => {
-  // console.log('errors: ', errors);
   const errorsKeys: ErrorRules = {};
 
   RecursionErrors(errors, errorsKeys);
-
-  // console.dir(errorsKeys, { depth: null });
 
   return new InvalidParamsException(errorsKeys);
 };
@@ -23,7 +20,7 @@ const RecursionErrors = (
   errorsKeys: ErrorRules,
   propName?: string,
 ) => {
-  errors.map((error) => {
+  errors.forEach((error) => {
     const property =
       propName != undefined && propName.length > 0
         ? propName + '.' + error.property
@@ -31,7 +28,7 @@ const RecursionErrors = (
 
     if (!error.children.length) {
       errorsKeys[property] = [];
-      Object.keys(error.constraints).map((constrain) => {
+      Object.keys(error.constraints).forEach((constrain) => {
         errorsKeys[property].push({
           [constrain]: ValidationErrorCodes[constrain] || null,
         });

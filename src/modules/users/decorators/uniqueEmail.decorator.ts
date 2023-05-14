@@ -14,7 +14,7 @@ import { UserService } from '../../users/user.service';
 export class UniqueEmailValidation implements ValidatorConstraintInterface {
   constructor(private userService: UserService) {}
 
-  async validate(value: string, args: ValidationArguments): Promise<boolean> {
+  async validate(value: string, _args: ValidationArguments): Promise<boolean> {
     const { data } = await this.userService.findUser({ email: value }, {});
     return !data;
   }
