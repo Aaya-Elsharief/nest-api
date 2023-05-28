@@ -22,7 +22,6 @@ import redisConfig from './config/redis.config';
 import { FirebaseModule } from './modules/firebase/firebase.module';
 import { UserLogsModule } from './modules/userLogs/userLogs.module';
 import { TasksModule } from './modules/tasks/tasks.module';
-import { SimplifiModule } from './modules/simplifi/simplifi.module';
 import simplifiConfig from './config/simplifi.config';
 
 const serviceAccount = require('../serviceAccountKey.json');
@@ -33,8 +32,8 @@ const serviceAccount = require('../serviceAccountKey.json');
     AuthModule,
     FirebaseModule,
     UserLogsModule,
-    SimplifiModule,
     ConfigModule.forRoot({
+      envFilePath: `${process.cwd()}/env/${process.env.NODE_ENV}.env`,
       load: [
         jwtConfig,
         databaseConfig,
