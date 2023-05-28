@@ -23,6 +23,7 @@ import { FirebaseModule } from './modules/firebase/firebase.module';
 import { UserLogsModule } from './modules/userLogs/userLogs.module';
 import { TasksModule } from './modules/tasks/tasks.module';
 import simplifiConfig from './config/simplifi.config';
+import apiConfig from './config/api.config';
 
 const serviceAccount = require('../serviceAccountKey.json');
 
@@ -40,6 +41,7 @@ const serviceAccount = require('../serviceAccountKey.json');
         redisConfig,
         firebaseConfig,
         simplifiConfig,
+        apiConfig,
       ],
       isGlobal: true,
       cache: true,
