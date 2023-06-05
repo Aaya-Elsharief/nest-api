@@ -10,6 +10,7 @@ import { FirebaseAdminModule } from '@tfarras/nestjs-firebase-admin';
 import { cert } from 'firebase-admin/app';
 import { EventEmitterModule } from '@nestjs/event-emitter';
 import { ScheduleModule } from '@nestjs/schedule';
+// import { DevtoolsModule } from '@nestjs/devtools-integration';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -22,8 +23,9 @@ import redisConfig from './config/redis.config';
 import { FirebaseModule } from './modules/firebase/firebase.module';
 import { UserLogsModule } from './modules/userLogs/userLogs.module';
 import { TasksModule } from './modules/tasks/tasks.module';
-import { SimplifiModule } from './modules/simplifi/simplifi.module';
+// import { SimplifiModule } from './modules/simplifi/simplifi.module';
 import simplifiConfig from './config/simplifi.config';
+import apiConfig from './config/api.config';
 
 const serviceAccount = require('../serviceAccountKey.json');
 
@@ -33,14 +35,19 @@ const serviceAccount = require('../serviceAccountKey.json');
     AuthModule,
     FirebaseModule,
     UserLogsModule,
-    SimplifiModule,
+    // SimplifiModule,
+    // DevtoolsModule.register({
+    //   http: process.env.NODE_ENV !== 'production',
+    // }),
     ConfigModule.forRoot({
+      envFilePath: `${process.cwd()}/env/${process.env.NODE_ENV}.env`,
       load: [
         jwtConfig,
         databaseConfig,
         redisConfig,
         firebaseConfig,
         simplifiConfig,
+        apiConfig,
       ],
       isGlobal: true,
       cache: true,

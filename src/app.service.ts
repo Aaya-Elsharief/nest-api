@@ -33,4 +33,8 @@ export class AppService {
   getHello(): string {
     return 'Hello World!';
   }
+
+  getService(): string {
+    return 'getService';
+  }
 }

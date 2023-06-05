@@ -1,8 +1,8 @@
 import { parse } from 'path';
 
 import { BadRequestException } from '@nestjs/common';
-import { ErrorCodes } from 'src/constants/error-codes';
 
+import { ErrorCodes } from '../../../constants/error-codes';
 import { attachementResourseConfig } from '../constants/attachmentResourceConfig';
 
 export const imageOrDocFileFilter = (req, file, cb) => {

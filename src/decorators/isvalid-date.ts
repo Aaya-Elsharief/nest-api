@@ -6,9 +6,10 @@ import {
   ValidatorConstraintInterface,
 } from 'class-validator';
 // import { ValidationErrorCodes } from '../../../constants/validation-error-codes';
-import { ValidationErrorCodes } from 'src/constants/validation-error-codes';
 import { Injectable } from '@nestjs/common';
 import * as moment from 'moment';
+
+import { ValidationErrorCodes } from '../constants/validation-error-codes';
 /**
  * NOTE::Validator Constraint name must be the same as the error message key located at ValidationErrorCodes map
  * Example:

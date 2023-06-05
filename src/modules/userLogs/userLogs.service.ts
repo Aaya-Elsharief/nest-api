@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { sendEmail } from 'src/helpers/sendEmail';
-import { IServiceInterface } from 'src/Interfaces/IService.interface';
 
+import { sendEmail } from '../../helpers/sendEmail';
+import { IServiceInterface } from '../../Interfaces/IService.interface';
 import { FirebaseService } from '../firebase/firebase.service';
 import { UserService } from '../users/user.service';
 
