@@ -1,7 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 
 import { AppService } from './app.service';
-import { simplifiCodes } from './constants/simplifi-error-codes';
 
 @Controller()
 export class AppController {
@@ -9,6 +8,11 @@ export class AppController {
 
   @Get()
   getHello() {
-    return Object.keys(simplifiCodes).length;
+    return this.appService.getHello();
+  }
+
+  @Get('/8')
+  getService() {
+    return 'getService';
   }
 }

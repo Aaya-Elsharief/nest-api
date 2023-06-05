@@ -1,5 +1,6 @@
 import { IsNotEmpty, IsEmail } from 'class-validator';
-import { IsExistEmail } from 'src/modules/users/decorators/isEmailExist.decorator';
+
+import { IsExistEmail } from '../../users/decorators/isEmailExist.decorator';
 
 export class ForgetPasswordDto {
   @IsNotEmpty()

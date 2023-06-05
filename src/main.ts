@@ -1,5 +1,12 @@
+import * as fs from 'fs';
+
 import { ValidationPipe } from '@nestjs/common';
-import { HttpAdapterHost, NestFactory } from '@nestjs/core';
+import {
+  HttpAdapterHost,
+  NestFactory,
+  PartialGraphHost,
+  SerializedGraph,
+} from '@nestjs/core';
 import { useContainer } from 'class-validator';
 // import express from 'express';
 // import * as functions from 'firebase-functions';
@@ -11,7 +18,10 @@ import { LoggingInterceptor } from './interceptors/logging.interceptor';
 
 // const server = express();
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, {
+    snapshot: true,
+    // abortOnError: false,
+  });
   useContainer(app.select(AppModule), { fallbackOnErrors: true });
   app.useGlobalPipes(
     new ValidationPipe({
@@ -22,5 +32,10 @@ async function bootstrap() {
   app.useGlobalFilters(new AllExceptionsFilter(app.get(HttpAdapterHost)));
   app.useGlobalInterceptors(new LoggingInterceptor());
   await app.listen(3000);
+  fs.writeFileSync('fullGraph.json', app.get(SerializedGraph).toString());
 }
-bootstrap();
+
+bootstrap().catch((err) => {
+  fs.writeFileSync('graph.json', PartialGraphHost.toString() ?? '');
+  process.exit(1);
+});

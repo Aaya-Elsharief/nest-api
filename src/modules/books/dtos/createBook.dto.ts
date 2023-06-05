@@ -13,8 +13,8 @@ import {
   Min,
   ValidateNested,
 } from 'class-validator';
-import { IsValidDate } from 'src/decorators/isvalid-date';
 
+import { IsValidDate } from '../../../decorators/isvalid-date';
 import { IsUniqueTitle } from '../decorators/uniqueTitle.decorator';
 import { genres } from '../enum/bookgenres.enum';
 

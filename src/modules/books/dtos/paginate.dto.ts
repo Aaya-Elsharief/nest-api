@@ -22,7 +22,7 @@ export class PaginateDto {
   @IsOptional()
   // @Transform(({ value }) => value.toLowerCase())
   @IsEnum(BooksSortBy)
-  sortBy: BooksSortBy;
+  sortBy: string;
 
   @IsOptional()
   @Type(() => Number)

@@ -1,10 +1,10 @@
 import { BadRequestException, Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
-import { IServiceInterface } from 'src/Interfaces/IService.interface';
 import * as bcrypt from 'bcrypt';
-import { ValidationErrorCodes } from 'src/constants/validation-error-codes';
-import { sendEmail } from 'src/helpers/sendEmail';
 
+import { IServiceInterface } from '../../Interfaces/IService.interface';
+import { ValidationErrorCodes } from '../../constants/validation-error-codes';
+import { sendEmail } from '../../helpers/sendEmail';
 import { User } from '../users/interfaces/user.interface';
 import { UserService } from '../users/user.service';
 import { RegisterDto } from '../auth/dtos/register.dto';
