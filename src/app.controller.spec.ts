@@ -1,23 +1,42 @@
-import { Test, TestingModule } from '@nestjs/testing';
+import { Test } from '@nestjs/testing';
+import { ModuleMocker, MockFunctionMetadata } from 'jest-mock';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 
-describe('AppController', () => {
+const moduleMocker = new ModuleMocker(global);
+
+describe('appController', () => {
   let appController: AppController;
+  const appService = {
+    getHello: jest.fn().mockReturnValue('Hello World!'),
+  };
 
   beforeEach(async () => {
-    const app: TestingModule = await Test.createTestingModule({
+    const moduleRef = await Test.createTestingModule({
       controllers: [AppController],
-      providers: [AppService],
-    }).compile();
+      // providers: [AppService],
+    })
+      .useMocker((token) => {
+        if (token === AppService) {
+          return appService;
+        }
+        if (typeof token === 'function') {
+          const mockMetadata = moduleMocker.getMetadata(
+            token,
+          ) as MockFunctionMetadata<any, any>;
+          const Mock = moduleMocker.generateFromMetadata(mockMetadata);
+          return new Mock();
+        }
+      })
+      // .overrideProvider(AppService)
+      // .useValue(appService)
+      .compile();
 
-    appController = app.get<AppController>(AppController);
+    appController = moduleRef.get<AppController>(AppController);
   });
 
-  describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
-    });
+  it('should return Hello World!', () => {
+    expect(appController.getHello()).toMatch('Hello World');
   });
 });

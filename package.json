@@ -25,7 +25,8 @@
     "@nestjs/axios": "^2.0.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.3.1",
-    "@nestjs/core": "^9.0.0",
+    "@nestjs/core": "^9.4.2",
+    "@nestjs/devtools-integration": "^0.1.4",
     "@nestjs/event-emitter": "^1.4.1",
     "@nestjs/jwt": "^10.0.2",
     "@nestjs/mongoose": "^9.2.1",
@@ -60,7 +61,7 @@
     "mongoose-paginate-v2": "^1.7.1",
     "mongoose-sequence": "^5.3.1",
     "multer": "^1.4.5-lts.1",
-    "node": "^16.20.0",
+    "node": "^20.1.0",
     "node-cache": "^5.1.2",
     "nodemailer": "^6.9.1",
     "passport": "^0.6.0",
@@ -75,7 +76,7 @@
   "devDependencies": {
     "@nestjs/cli": "^9.0.0",
     "@nestjs/schematics": "^9.0.0",
-    "@nestjs/testing": "^9.0.0",
+    "@nestjs/testing": "^9.4.2",
     "@types/bcrypt": "^5.0.0",
     "@types/cache-manager": "^4.0.2",
     "@types/cron": "^2.0.1",
@@ -121,7 +122,7 @@
     "testEnvironment": "node"
   },
   "engines": {
-    "node": "16"
+    "node": "20"
   },
   "main": "dist/index.js"
 }
