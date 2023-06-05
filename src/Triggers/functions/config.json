@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Atlas_Triggers_usersOperationAudits_1682581099",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_booksOperationAudits",
+        "private": false
+    }
+    
+]

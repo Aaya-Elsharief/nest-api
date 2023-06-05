@@ -1,0 +1,6973 @@
+{
+  "nodes": {
+    "52633725": {
+      "id": "52633725",
+      "label": "ApplicationConfig",
+      "parent": "-1854488872",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "52633726": {
+      "id": "52633726",
+      "label": "ApplicationConfig",
+      "parent": "-1854488871",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "52633727": {
+      "id": "52633727",
+      "label": "ApplicationConfig",
+      "parent": "-1854488870",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "92420881": {
+      "id": "92420881",
+      "label": "DatabaseConnection",
+      "parent": "-1350909915",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MongooseCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "DatabaseConnection",
+        "initTime": 3515.686838001013
+      }
+    },
+    "95355232": {
+      "id": "95355232",
+      "label": "JwtModule",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "JwtModule",
+        "initTime": 7.162338003516197
+      }
+    },
+    "107841088": {
+      "id": "107841088",
+      "label": "EventEmitterModule",
+      "parent": "-1001049395",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "EventEmitterModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "EventEmitterModule",
+        "initTime": 6.005730003118515
+      }
+    },
+    "115797952": {
+      "id": "115797952",
+      "label": "TasksModule",
+      "parent": "186171501",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TasksModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "TasksModule",
+        "initTime": 5.431084997951984
+      }
+    },
+    "144428720": {
+      "id": "144428720",
+      "label": "ModuleRef",
+      "parent": "166481974",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MulterModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "146453376": {
+      "id": "146453376",
+      "label": "FirebaseAdminModule",
+      "parent": "1132538855",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "FirebaseAdminModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "FirebaseAdminModule",
+        "initTime": 6.081932000815868
+      }
+    },
+    "166481974": {
+      "id": "166481974",
+      "label": "MulterModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "174766762": {
+      "id": "174766762",
+      "label": "CONFIGURATION(database)",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CONFIGURATION(database)",
+        "initTime": 6.6477649956941605
+      }
+    },
+    "180912359": {
+      "id": "180912359",
+      "label": "ApplicationConfig",
+      "parent": "-832782462",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "BookModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "186171501": {
+      "id": "186171501",
+      "label": "TasksModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "203550704": {
+      "id": "203550704",
+      "label": "ExternalContextCreator",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "ExternalContextCreator"
+      }
+    },
+    "211572259": {
+      "id": "211572259",
+      "label": "ConfigHostModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "225063248": {
+      "id": "225063248",
+      "label": "InternalCoreModule",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "InternalCoreModule",
+        "initTime": 13.008977003395557
+      }
+    },
+    "233936880": {
+      "id": "233936880",
+      "label": "AppController",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "controller",
+        "internal": false,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "AppController",
+        "initTime": 0.8733479976654053
+      }
+    },
+    "240635964": {
+      "id": "240635964",
+      "label": "UserLogsController",
+      "parent": "-1287441037",
+      "metadata": {
+        "type": "controller",
+        "internal": false,
+        "sourceModuleName": "UserLogsModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "UserLogsController",
+        "initTime": 0.6894819959998131
+      }
+    },
+    "264711474": {
+      "id": "264711474",
+      "label": "MongooseModule",
+      "parent": "699745446",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MongooseModule",
+        "initTime": 9.703626997768879
+      }
+    },
+    "273065800": {
+      "id": "273065800",
+      "label": "UserLogsModel",
+      "parent": "-1854488871",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "UserLogsModel",
+        "initTime": 3546.390878997743
+      }
+    },
+    "303302557": {
+      "id": "303302557",
+      "label": "ModuleRef",
+      "parent": "211572259",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigHostModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "303754800": {
+      "id": "303754800",
+      "label": "ScheduleModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "332906476": {
+      "id": "332906476",
+      "label": "CONFIGURATION(simplifi)",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CONFIGURATION(simplifi)",
+        "initTime": 6.606042005121708
+      }
+    },
+    "356386502": {
+      "id": "356386502",
+      "label": "ScheduleModule",
+      "parent": "303754800",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ScheduleModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ScheduleModule",
+        "initTime": 5.610591001808643
+      }
+    },
+    "365214745": {
+      "id": "365214745",
+      "label": "BookModel",
+      "parent": "699745446",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "BookModel",
+        "initTime": 3549.266682997346
+      }
+    },
+    "385041166": {
+      "id": "385041166",
+      "label": "JwtStrategy",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "JwtStrategy",
+        "initTime": 303.2885180041194
+      }
+    },
+    "400681591": {
+      "id": "400681591",
+      "label": "DiscoveryService",
+      "parent": "-643397745",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "DiscoveryModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "DiscoveryService",
+        "initTime": 10.060880996286869
+      }
+    },
+    "410228892": {
+      "id": "410228892",
+      "label": "ApplicationConfig",
+      "parent": "-949539487",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "CacheModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "435222439": {
+      "id": "435222439",
+      "label": "ModuleRef",
+      "parent": "-949539487",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "CacheModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "555176277": {
+      "id": "555176277",
+      "label": "InternalCoreModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": true
+      }
+    },
+    "585414186": {
+      "id": "585414186",
+      "label": "ModuleRef",
+      "parent": "303754800",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ScheduleModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "671882984": {
+      "id": "671882984",
+      "label": "Reflector",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "Reflector",
+        "initTime": 12.626120999455452
+      }
+    },
+    "699745446": {
+      "id": "699745446",
+      "label": "MongooseModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "700230682": {
+      "id": "700230682",
+      "label": "BookController",
+      "parent": "-832782462",
+      "metadata": {
+        "type": "controller",
+        "internal": false,
+        "sourceModuleName": "BookModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "BookController",
+        "initTime": 1.0561110004782677
+      }
+    },
+    "708530116": {
+      "id": "708530116",
+      "label": "EventSubscribersLoader",
+      "parent": "-1001049395",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "EventEmitterModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "EventSubscribersLoader",
+        "initTime": 13.230376996099949
+      }
+    },
+    "712454178": {
+      "id": "712454178",
+      "label": "ApplicationConfig",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "822426632": {
+      "id": "822426632",
+      "label": "SchedulerOrchestrator",
+      "parent": "303754800",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ScheduleModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "SchedulerOrchestrator",
+        "initTime": 9.31105999648571
+      }
+    },
+    "826085184": {
+      "id": "826085184",
+      "label": "CacheModule",
+      "parent": "-949539487",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "CacheModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "CacheModule",
+        "initTime": 6.174218006432056
+      }
+    },
+    "863216333": {
+      "id": "863216333",
+      "label": "ConfigModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "889654164": {
+      "id": "889654164",
+      "label": "SchedulerMetadataAccessor",
+      "parent": "303754800",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ScheduleModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "SchedulerMetadataAccessor",
+        "initTime": 9.964729003608227
+      }
+    },
+    "902560543": {
+      "id": "902560543",
+      "label": "ModuleRef",
+      "parent": "-1350909915",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "915774976": {
+      "id": "915774976",
+      "label": "ApplicationConfig",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "930519593": {
+      "id": "930519593",
+      "label": "ConfigService",
+      "parent": "211572259",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigHostModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "Symbol(CONFIG_SERVICE)",
+        "initTime": 10.652052998542786
+      }
+    },
+    "941807192": {
+      "id": "941807192",
+      "label": "UniqueEmailValidation",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "UniqueEmailValidation",
+        "initTime": 3562.291293002665
+      }
+    },
+    "981404832": {
+      "id": "981404832",
+      "label": "ModuleRef",
+      "parent": "699745446",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "984659044": {
+      "id": "984659044",
+      "label": "MongooseModule",
+      "parent": "-1854488872",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MongooseModule",
+        "initTime": 7.631843000650406
+      }
+    },
+    "984659045": {
+      "id": "984659045",
+      "label": "MongooseModule",
+      "parent": "-1854488871",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MongooseModule",
+        "initTime": 7.265978001058102
+      }
+    },
+    "984659046": {
+      "id": "984659046",
+      "label": "MongooseModule",
+      "parent": "-1854488870",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MongooseModule",
+        "initTime": 6.449635997414589
+      }
+    },
+    "1063746662": {
+      "id": "1063746662",
+      "label": "CONFIGURATION_TOKEN",
+      "parent": "211572259",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigHostModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CONFIGURATION_TOKEN",
+        "initTime": 6.553556002676487
+      }
+    },
+    "1064117840": {
+      "id": "1064117840",
+      "label": "ApplicationConfig",
+      "parent": "-1959092373",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PassportModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1070370213": {
+      "id": "1070370213",
+      "label": "JwtService",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "JwtService",
+        "initTime": 594.1756170019507
+      }
+    },
+    "1104167347": {
+      "id": "1104167347",
+      "label": "TasksService",
+      "parent": "186171501",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "TasksModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "TasksService",
+        "initTime": 3560.482569999993
+      }
+    },
+    "1132538855": {
+      "id": "1132538855",
+      "label": "FirebaseAdminModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "1139971038": {
+      "id": "1139971038",
+      "label": "ModuleRef",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1144875719": {
+      "id": "1144875719",
+      "label": "ModuleRef",
+      "parent": "863216333",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1252421063": {
+      "id": "1252421063",
+      "label": "ModuleRef",
+      "parent": "-1001049395",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "EventEmitterModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1310883338": {
+      "id": "1310883338",
+      "label": "CONFIGURATION_LOADER",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "CONFIGURATION_LOADER",
+        "initTime": 11.029709003865719
+      }
+    },
+    "1357421246": {
+      "id": "1357421246",
+      "label": "CACHE_MANAGER",
+      "parent": "-949539487",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "CacheModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CACHE_MANAGER",
+        "initTime": 1143.1304289996624
+      }
+    },
+    "1399306624": {
+      "id": "1399306624",
+      "label": "ThrottlerModule",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ThrottlerModule",
+        "initTime": 7.030252002179623
+      }
+    },
+    "1404752088": {
+      "id": "1404752088",
+      "label": "AuthController",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "controller",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "AuthController",
+        "initTime": 0.20368799567222595,
+        "enhancers": [
+          {
+            "id": "-756619613",
+            "subtype": "guard"
+          },
+          {
+            "id": "-239266870",
+            "methodKey": "profile",
+            "subtype": "guard"
+          },
+          {
+            "id": "-239266870",
+            "methodKey": "subscripe",
+            "subtype": "guard"
+          },
+          {
+            "id": "-239266870",
+            "methodKey": "changepassword",
+            "subtype": "guard"
+          },
+          {
+            "id": "-1097834842",
+            "methodKey": "login",
+            "subtype": "guard"
+          },
+          {
+            "id": "-239266870",
+            "methodKey": "resetPassword",
+            "subtype": "guard"
+          },
+          {
+            "id": "-239266870",
+            "methodKey": "deleteUser",
+            "subtype": "guard"
+          },
+          {
+            "id": "-239266870",
+            "methodKey": "report",
+            "subtype": "guard"
+          }
+        ]
+      }
+    },
+    "1434456218": {
+      "id": "1434456218",
+      "label": "Reflector",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "Reflector",
+        "initTime": 16.62889800220728
+      }
+    },
+    "1465724082": {
+      "id": "1465724082",
+      "label": "LocalStrategy",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "LocalStrategy",
+        "initTime": 3565.4260929971933
+      }
+    },
+    "1482218087": {
+      "id": "1482218087",
+      "label": "ThrottlerModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "1527120251": {
+      "id": "1527120251",
+      "label": "FIREBASE_ADMIN_INJECT",
+      "parent": "1132538855",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "FirebaseAdminModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "FIREBASE_ADMIN_INJECT",
+        "initTime": 593.0145539939404
+      }
+    },
+    "1542581243": {
+      "id": "1542581243",
+      "label": "ModuleRef",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1545939880": {
+      "id": "1545939880",
+      "label": "ApplicationConfig",
+      "parent": "186171501",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TasksModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1570933427": {
+      "id": "1570933427",
+      "label": "ModuleRef",
+      "parent": "186171501",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "TasksModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1623724461": {
+      "id": "1623724461",
+      "label": "ModuleRef",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1690574933": {
+      "id": "1690574933",
+      "label": "ModuleRef",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1691762100": {
+      "id": "1691762100",
+      "label": "EventEmitter",
+      "parent": "-1001049395",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "EventEmitterModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "EventEmitter"
+      }
+    },
+    "1694909263": {
+      "id": "1694909263",
+      "label": "EventsMetadataAccessor",
+      "parent": "-1001049395",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "EventEmitterModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "EventsMetadataAccessor",
+        "initTime": 10.054876007139683
+      }
+    },
+    "1712628187": {
+      "id": "1712628187",
+      "label": "ConfigModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "1712941473": {
+      "id": "1712941473",
+      "label": "ApplicationConfig",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1735769176": {
+      "id": "1735769176",
+      "label": "ApplicationConfig",
+      "parent": "-1287441037",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "UserLogsModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1737837706": {
+      "id": "1737837706",
+      "label": "ApplicationConfig",
+      "parent": "-1350909915",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "1744462015": {
+      "id": "1744462015",
+      "label": "Events",
+      "parent": "-1287441037",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "UserLogsModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "Events",
+        "initTime": 7.33789300173521
+      }
+    },
+    "1769319388": {
+      "id": "1769319388",
+      "label": "ConfigModule",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ConfigModule",
+        "initTime": 6.921328999102116
+      }
+    },
+    "1787828844": {
+      "id": "1787828844",
+      "label": "ConfigHostModule",
+      "parent": "211572259",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigHostModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ConfigHostModule",
+        "initTime": 6.478133000433445
+      }
+    },
+    "1844286588": {
+      "id": "1844286588",
+      "label": "ModuleRef",
+      "parent": "-832782462",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "BookModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "1844337044": {
+      "id": "1844337044",
+      "label": "userStatus",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "userStatus",
+        "initTime": 3560.806146003306
+      }
+    },
+    "1879849979": {
+      "id": "1879849979",
+      "label": "SchedulerRegistry",
+      "parent": "303754800",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ScheduleModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "SchedulerRegistry",
+        "initTime": 5.448645003139973
+      }
+    },
+    "1900937998": {
+      "id": "1900937998",
+      "label": "CONFIGURATION(redis)",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CONFIGURATION(redis)",
+        "initTime": 6.6365289986133575
+      }
+    },
+    "1919157847": {
+      "id": "1919157847",
+      "label": "REQUEST",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": false,
+        "scope": 2,
+        "transient": false,
+        "exported": true,
+        "token": "REQUEST",
+        "initTime": 10.480706997215748
+      }
+    },
+    "1986699406": {
+      "id": "1986699406",
+      "label": "MongooseConnectionName",
+      "parent": "-1350909915",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MongooseCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MongooseConnectionName"
+      }
+    },
+    "2087698226": {
+      "id": "2087698226",
+      "label": "ApplicationConfig",
+      "parent": "-1001049395",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "EventEmitterModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "2107856914": {
+      "id": "2107856914",
+      "label": "MulterModule",
+      "parent": "166481974",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MulterModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MulterModule",
+        "initTime": 7.304793000221252
+      }
+    },
+    "2118694856": {
+      "id": "2118694856",
+      "label": "ApplicationConfig",
+      "parent": "211572259",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigHostModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "2141638038": {
+      "id": "2141638038",
+      "label": "MULTER_MODULE_OPTIONS",
+      "parent": "166481974",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MulterModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "MULTER_MODULE_OPTIONS"
+      }
+    },
+    "-1486320561": {
+      "id": "-1486320561",
+      "label": "ModuleRef",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-651043398": {
+      "id": "-651043398",
+      "label": "ApplicationConfig",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-255469305": {
+      "id": "-255469305",
+      "label": "INQUIRER",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 1,
+        "transient": true,
+        "exported": true,
+        "token": "INQUIRER",
+        "initTime": 10.450958006083965
+      }
+    },
+    "-26938366": {
+      "id": "-26938366",
+      "label": "ModulesContainer",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "ModulesContainer"
+      }
+    },
+    "-326832201": {
+      "id": "-326832201",
+      "label": "HttpAdapterHost",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "HttpAdapterHost"
+      }
+    },
+    "-553129559": {
+      "id": "-553129559",
+      "label": "HttpAdapterHost",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "HttpAdapterHost",
+        "initTime": 12.140325002372265
+      }
+    },
+    "-702581189": {
+      "id": "-702581189",
+      "label": "LazyModuleLoader",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "LazyModuleLoader",
+        "initTime": 11.201752997934818
+      }
+    },
+    "-1904419534": {
+      "id": "-1904419534",
+      "label": "SerializedGraph",
+      "parent": "555176277",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "InternalCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "SerializedGraph"
+      }
+    },
+    "-19112576": {
+      "id": "-19112576",
+      "label": "AppModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-2139588960": {
+      "id": "-2139588960",
+      "label": "AppModule",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "AppModule",
+        "initTime": 11.161918997764587
+      }
+    },
+    "-71302842": {
+      "id": "-71302842",
+      "label": "ModuleRef",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-2064622725": {
+      "id": "-2064622725",
+      "label": "ApplicationConfig",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2130614055": {
+      "id": "-2130614055",
+      "label": "AppService",
+      "parent": "-19112576",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AppModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "AppService",
+        "initTime": 600.4249909967184
+      }
+    },
+    "-832782462": {
+      "id": "-832782462",
+      "label": "BookModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-726177942": {
+      "id": "-726177942",
+      "label": "BookModule",
+      "parent": "-832782462",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "BookModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "BookModule",
+        "initTime": 10.257265001535416
+      }
+    },
+    "-891739327": {
+      "id": "-891739327",
+      "label": "BookService",
+      "parent": "-832782462",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "BookModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "BookService",
+        "initTime": 3562.9457949995995
+      }
+    },
+    "-1064443320": {
+      "id": "-1064443320",
+      "label": "BookRepository",
+      "parent": "-832782462",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "BookModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "BookRepository",
+        "initTime": 3562.2378749996424
+      }
+    },
+    "-704798827": {
+      "id": "-704798827",
+      "label": "UniqueTitleValidation",
+      "parent": "-832782462",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "BookModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "UniqueTitleValidation",
+        "initTime": 3562.959537997842
+      }
+    },
+    "-572011637": {
+      "id": "-572011637",
+      "label": "ApplicationConfig",
+      "parent": "699745446",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1134487807": {
+      "id": "-1134487807",
+      "label": "AuthModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1846279256": {
+      "id": "-1846279256",
+      "label": "AuthModule",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "AuthModule",
+        "initTime": 9.506319999694824
+      }
+    },
+    "-120792986": {
+      "id": "-120792986",
+      "label": "ApplicationConfig",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-793915935": {
+      "id": "-793915935",
+      "label": "AuthService",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "AuthService",
+        "initTime": 3564.609824001789
+      }
+    },
+    "-268708364": {
+      "id": "-268708364",
+      "label": "uniqueUsernameValidation",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "uniqueUsernameValidation",
+        "initTime": 3562.18734100461
+      }
+    },
+    "-333227768": {
+      "id": "-333227768",
+      "label": "EmailExistValidation",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "EmailExistValidation",
+        "initTime": 3562.0022509992123
+      }
+    },
+    "-922458505": {
+      "id": "-922458505",
+      "label": "PasswordMatchValidation",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "PasswordMatchValidation",
+        "initTime": 3561.8669520020485
+      }
+    },
+    "-1944919247": {
+      "id": "-1944919247",
+      "label": "ThrottlerGuard",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "ThrottlerGuard",
+        "initTime": 15.363180994987488
+      }
+    },
+    "-756619613": {
+      "id": "-756619613",
+      "label": "ThrottlerGuard",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "injectable",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "ThrottlerGuard",
+        "subtype": "guard",
+        "initTime": 3.1514210030436516
+      }
+    },
+    "-239266870": {
+      "id": "-239266870",
+      "label": "JwtAuthGuard",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "injectable",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "JwtAuthGuard",
+        "subtype": "guard",
+        "initTime": 3.6812120005488396
+      }
+    },
+    "-1097834842": {
+      "id": "-1097834842",
+      "label": "LocalAuthGuard",
+      "parent": "-1134487807",
+      "metadata": {
+        "type": "injectable",
+        "internal": false,
+        "sourceModuleName": "AuthModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "LocalAuthGuard",
+        "subtype": "guard",
+        "initTime": 3.5988099947571754
+      }
+    },
+    "-1537098012": {
+      "id": "-1537098012",
+      "label": "UserModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1722084434": {
+      "id": "-1722084434",
+      "label": "UserModule",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "UserModule",
+        "initTime": 8.013810999691486
+      }
+    },
+    "-523403191": {
+      "id": "-523403191",
+      "label": "ApplicationConfig",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-2045439487": {
+      "id": "-2045439487",
+      "label": "UserService",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "UserService",
+        "initTime": 3561.869098998606
+      }
+    },
+    "-1972613748": {
+      "id": "-1972613748",
+      "label": "UserRepository",
+      "parent": "-1537098012",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "UserModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "UserRepository",
+        "initTime": 3559.988099999726
+      }
+    },
+    "-1854488872": {
+      "id": "-1854488872",
+      "label": "MongooseModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-1762758574": {
+      "id": "-1762758574",
+      "label": "ModuleRef",
+      "parent": "-1854488872",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1996665865": {
+      "id": "-1996665865",
+      "label": "UserModel",
+      "parent": "-1854488872",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "UserModel",
+        "initTime": 3547.0169060006738
+      }
+    },
+    "-1287441037": {
+      "id": "-1287441037",
+      "label": "UserLogsModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1871502324": {
+      "id": "-1871502324",
+      "label": "UserLogsModule",
+      "parent": "-1287441037",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "UserLogsModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "UserLogsModule",
+        "initTime": 7.605923995375633
+      }
+    },
+    "-1005781651": {
+      "id": "-1005781651",
+      "label": "ModuleRef",
+      "parent": "-1287441037",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "UserLogsModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-250774239": {
+      "id": "-250774239",
+      "label": "UserLogsService",
+      "parent": "-1287441037",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "UserLogsModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "UserLogsService",
+        "initTime": 3561.179310001433
+      }
+    },
+    "-802799766": {
+      "id": "-802799766",
+      "label": "UserLogsRepository",
+      "parent": "-1287441037",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "UserLogsModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "UserLogsRepository",
+        "initTime": 3559.499245002866
+      }
+    },
+    "-686360160": {
+      "id": "-686360160",
+      "label": "FirebaseModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-205170266": {
+      "id": "-205170266",
+      "label": "FirebaseModule",
+      "parent": "-686360160",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "FirebaseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "FirebaseModule",
+        "initTime": 7.326174005866051
+      }
+    },
+    "-404700774": {
+      "id": "-404700774",
+      "label": "ModuleRef",
+      "parent": "-686360160",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "FirebaseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1958117243": {
+      "id": "-1958117243",
+      "label": "ApplicationConfig",
+      "parent": "-686360160",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "FirebaseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-986645119": {
+      "id": "-986645119",
+      "label": "FirebaseService",
+      "parent": "-686360160",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "FirebaseModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "FirebaseService",
+        "initTime": 596.8719800040126
+      }
+    },
+    "-2070751084": {
+      "id": "-2070751084",
+      "label": "ab24ba9d8e3b6208085de",
+      "parent": "-686360160",
+      "metadata": {
+        "type": "injectable",
+        "internal": false,
+        "sourceModuleName": "FirebaseModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "ab24ba9d8e3b6208085de",
+        "subtype": "interceptor",
+        "initTime": 1.0337830036878586
+      }
+    },
+    "-1056340138": {
+      "id": "-1056340138",
+      "label": "FirebaseController",
+      "parent": "-686360160",
+      "metadata": {
+        "type": "controller",
+        "internal": false,
+        "sourceModuleName": "FirebaseModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "FirebaseController",
+        "initTime": 2962.627807997167,
+        "enhancers": [
+          {
+            "id": "-2070751084",
+            "methodKey": "uploadFiles",
+            "subtype": "interceptor"
+          },
+          {
+            "name": "ParseFilePipe",
+            "methodKey": "uploadFiles",
+            "subtype": "pipe"
+          }
+        ]
+      }
+    },
+    "-630371237": {
+      "id": "-630371237",
+      "label": "ApplicationConfig",
+      "parent": "166481974",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MulterModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1292691275": {
+      "id": "-1292691275",
+      "label": "MULTER_MODULE_ID",
+      "parent": "166481974",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MulterModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MULTER_MODULE_ID"
+      }
+    },
+    "-1854488871": {
+      "id": "-1854488871",
+      "label": "MongooseModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-1762758573": {
+      "id": "-1762758573",
+      "label": "ModuleRef",
+      "parent": "-1854488871",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1959092373": {
+      "id": "-1959092373",
+      "label": "PassportModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1891293700": {
+      "id": "-1891293700",
+      "label": "PassportModule",
+      "parent": "-1959092373",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PassportModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "PassportModule",
+        "initTime": 7.189929001033306
+      }
+    },
+    "-1677432987": {
+      "id": "-1677432987",
+      "label": "ModuleRef",
+      "parent": "-1959092373",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "PassportModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-536515674": {
+      "id": "-536515674",
+      "label": "JwtModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-588705940": {
+      "id": "-588705940",
+      "label": "ModuleRef",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1900804336": {
+      "id": "-1900804336",
+      "label": "JWT_MODULE_OPTIONS",
+      "parent": "-536515674",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "JwtModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "JWT_MODULE_OPTIONS",
+        "initTime": 301.39887599647045
+      }
+    },
+    "-1952648617": {
+      "id": "-1952648617",
+      "label": "THROTTLER:MODULE_OPTIONS",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "THROTTLER:MODULE_OPTIONS",
+        "initTime": 7.0119050070643425
+      }
+    },
+    "-470986226": {
+      "id": "-470986226",
+      "label": "Symbol(ThrottlerStorage)",
+      "parent": "1482218087",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ThrottlerModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "Symbol(ThrottlerStorage)",
+        "initTime": 10.787765994668007
+      }
+    },
+    "-503631789": {
+      "id": "-503631789",
+      "label": "ConfigService",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "ConfigService",
+        "initTime": 13.984302997589111
+      }
+    },
+    "-1453472830": {
+      "id": "-1453472830",
+      "label": "CONFIGURATION(jwt)",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CONFIGURATION(jwt)",
+        "initTime": 6.676698997616768
+      }
+    },
+    "-677503586": {
+      "id": "-677503586",
+      "label": "CONFIGURATION(firebase)",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CONFIGURATION(firebase)",
+        "initTime": 6.623308002948761
+      }
+    },
+    "-1850383025": {
+      "id": "-1850383025",
+      "label": "CONFIGURATION(api)",
+      "parent": "1712628187",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "CONFIGURATION(api)",
+        "initTime": 6.597754001617432
+      }
+    },
+    "-1854488870": {
+      "id": "-1854488870",
+      "label": "MongooseModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-1762758572": {
+      "id": "-1762758572",
+      "label": "ModuleRef",
+      "parent": "-1854488870",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1350909915": {
+      "id": "-1350909915",
+      "label": "MongooseCoreModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-941557008": {
+      "id": "-941557008",
+      "label": "MongooseCoreModule",
+      "parent": "-1350909915",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "MongooseCoreModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "MongooseCoreModule",
+        "initTime": 7.087655000388622
+      }
+    },
+    "-1033003235": {
+      "id": "-1033003235",
+      "label": "MongooseModuleOptions",
+      "parent": "-1350909915",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "MongooseCoreModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "MongooseModuleOptions",
+        "initTime": 300.6084639951587
+      }
+    },
+    "-491114354": {
+      "id": "-491114354",
+      "label": "ConfigModule",
+      "parent": "863216333",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ConfigModule",
+        "initTime": 6.199783995747566
+      }
+    },
+    "-408540750": {
+      "id": "-408540750",
+      "label": "ApplicationConfig",
+      "parent": "863216333",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-503631788": {
+      "id": "-503631788",
+      "label": "ConfigService",
+      "parent": "863216333",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ConfigModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": true,
+        "token": "ConfigService",
+        "initTime": 13.358924001455307
+      }
+    },
+    "-949539487": {
+      "id": "-949539487",
+      "label": "CacheModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-1871582906": {
+      "id": "-1871582906",
+      "label": "CACHE_MODULE_OPTIONS",
+      "parent": "-949539487",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "CacheModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "CACHE_MODULE_OPTIONS",
+        "initTime": 1130.9377879947424
+      }
+    },
+    "-2024320979": {
+      "id": "-2024320979",
+      "label": "ModuleRef",
+      "parent": "1132538855",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "FirebaseAdminModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1900532702": {
+      "id": "-1900532702",
+      "label": "ApplicationConfig",
+      "parent": "1132538855",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "FirebaseAdminModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-473971423": {
+      "id": "-473971423",
+      "label": "FIREBASE_ADMIN_MODULE_OPTIONS",
+      "parent": "1132538855",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "FirebaseAdminModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "FIREBASE_ADMIN_MODULE_OPTIONS",
+        "initTime": 300.2991380020976
+      }
+    },
+    "-1001049395": {
+      "id": "-1001049395",
+      "label": "EventEmitterModule",
+      "metadata": {
+        "type": "module",
+        "global": true,
+        "dynamic": true,
+        "internal": false
+      }
+    },
+    "-643397745": {
+      "id": "-643397745",
+      "label": "DiscoveryModule",
+      "metadata": {
+        "type": "module",
+        "global": false,
+        "dynamic": false,
+        "internal": false
+      }
+    },
+    "-1048394624": {
+      "id": "-1048394624",
+      "label": "DiscoveryModule",
+      "parent": "-643397745",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DiscoveryModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "DiscoveryModule",
+        "initTime": 5.639360003173351
+      }
+    },
+    "-501891371": {
+      "id": "-501891371",
+      "label": "ModuleRef",
+      "parent": "-643397745",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DiscoveryModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ModuleRef"
+      }
+    },
+    "-1413161654": {
+      "id": "-1413161654",
+      "label": "ApplicationConfig",
+      "parent": "-643397745",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "DiscoveryModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-438112115": {
+      "id": "-438112115",
+      "label": "MetadataScanner",
+      "parent": "-643397745",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "DiscoveryModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": true,
+        "token": "MetadataScanner",
+        "initTime": 5.701867997646332
+      }
+    },
+    "-968002283": {
+      "id": "-968002283",
+      "label": "ApplicationConfig",
+      "parent": "303754800",
+      "metadata": {
+        "type": "provider",
+        "internal": true,
+        "sourceModuleName": "ScheduleModule",
+        "durable": false,
+        "static": true,
+        "scope": 0,
+        "transient": false,
+        "exported": false,
+        "token": "ApplicationConfig"
+      }
+    },
+    "-1945923175": {
+      "id": "-1945923175",
+      "label": "ScheduleExplorer",
+      "parent": "303754800",
+      "metadata": {
+        "type": "provider",
+        "internal": false,
+        "sourceModuleName": "ScheduleModule",
+        "durable": false,
+        "static": true,
+        "transient": false,
+        "exported": false,
+        "token": "ScheduleExplorer",
+        "initTime": 12.728081002831459
+      }
+    }
+  },
+  "edges": {
+    "11117387": {
+      "source": "-1537098012",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "11117387"
+    },
+    "35781158": {
+      "source": "-1287441037",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "35781158"
+    },
+    "48842316": {
+      "source": "1712628187",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "48842316"
+    },
+    "55936688": {
+      "source": "-1350909915",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseCoreModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "55936688"
+    },
+    "58486341": {
+      "source": "-250774239",
+      "target": "-802799766",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserLogsModule",
+        "sourceClassName": "UserLogsService",
+        "targetClassName": "UserLogsRepository",
+        "sourceClassToken": "UserLogsService",
+        "targetClassToken": "UserLogsRepository",
+        "targetModuleName": "UserLogsModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "58486341"
+    },
+    "104447669": {
+      "source": "-1537098012",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "104447669"
+    },
+    "117244120": {
+      "source": "303754800",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScheduleModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "117244120"
+    },
+    "131707269": {
+      "source": "211572259",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigHostModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "131707269"
+    },
+    "172868704": {
+      "source": "92420881",
+      "target": "-1033003235",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "MongooseCoreModule",
+        "sourceClassName": "DatabaseConnection",
+        "targetClassName": "MongooseModuleOptions",
+        "sourceClassToken": "DatabaseConnection",
+        "targetClassToken": "MongooseModuleOptions",
+        "targetModuleName": "MongooseCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "172868704"
+    },
+    "175936436": {
+      "source": "-19112576",
+      "target": "-686360160",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "FirebaseModule"
+      },
+      "id": "175936436"
+    },
+    "184060730": {
+      "source": "-643397745",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DiscoveryModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "184060730"
+    },
+    "185446636": {
+      "source": "-1959092373",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "185446636"
+    },
+    "189694679": {
+      "source": "1434456218",
+      "target": "671882984",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "InternalCoreModule",
+        "sourceClassName": "Reflector",
+        "targetClassName": "Reflector",
+        "sourceClassToken": "Reflector",
+        "targetClassToken": "Reflector",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "189694679"
+    },
+    "191961013": {
+      "source": "-1134487807",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "191961013"
+    },
+    "197145204": {
+      "source": "699745446",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "197145204"
+    },
+    "201353817": {
+      "source": "-19112576",
+      "target": "-1854488870",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "MongooseModule"
+      },
+      "id": "201353817"
+    },
+    "217485454": {
+      "source": "365214745",
+      "target": "92420881",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "MongooseModule",
+        "sourceClassName": "BookModel",
+        "targetClassName": "DatabaseConnection",
+        "sourceClassToken": "BookModel",
+        "targetClassToken": "DatabaseConnection",
+        "targetModuleName": "MongooseCoreModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "217485454"
+    },
+    "219775656": {
+      "source": "-19112576",
+      "target": "-1134487807",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "AuthModule"
+      },
+      "id": "219775656"
+    },
+    "231859631": {
+      "source": "-686360160",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "231859631"
+    },
+    "235941680": {
+      "source": "941807192",
+      "target": "-2045439487",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "UniqueEmailValidation",
+        "targetClassName": "UserService",
+        "sourceClassToken": "UniqueEmailValidation",
+        "targetClassToken": "UserService",
+        "targetModuleName": "UserModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "235941680"
+    },
+    "258608619": {
+      "source": "1310883338",
+      "target": "-1850383025",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "CONFIGURATION_LOADER",
+        "targetClassName": "CONFIGURATION(api)",
+        "sourceClassToken": "CONFIGURATION_LOADER",
+        "targetClassToken": "CONFIGURATION(api)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 6,
+        "injectionType": "constructor"
+      },
+      "id": "258608619"
+    },
+    "295256275": {
+      "source": "-536515674",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "295256275"
+    },
+    "296404084": {
+      "source": "863216333",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "296404084"
+    },
+    "329868189": {
+      "source": "1465724082",
+      "target": "-793915935",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "LocalStrategy",
+        "targetClassName": "AuthService",
+        "sourceClassToken": "LocalStrategy",
+        "targetClassToken": "AuthService",
+        "targetModuleName": "AuthModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "329868189"
+    },
+    "330046600": {
+      "source": "699745446",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "330046600"
+    },
+    "338116815": {
+      "source": "-503631789",
+      "target": "-1850383025",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "CONFIGURATION(api)",
+        "sourceClassToken": "ConfigService",
+        "targetClassToken": "CONFIGURATION(api)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 6,
+        "injectionType": "constructor"
+      },
+      "id": "338116815"
+    },
+    "353572985": {
+      "source": "1712628187",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "353572985"
+    },
+    "358719582": {
+      "source": "-686360160",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "358719582"
+    },
+    "382776765": {
+      "source": "-1287441037",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "382776765"
+    },
+    "423961626": {
+      "source": "-1134487807",
+      "target": "-1287441037",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "UserLogsModule"
+      },
+      "id": "423961626"
+    },
+    "456853847": {
+      "source": "699745446",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "456853847"
+    },
+    "534578584": {
+      "source": "-643397745",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DiscoveryModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "534578584"
+    },
+    "534961345": {
+      "source": "-891739327",
+      "target": "92420881",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "BookModule",
+        "sourceClassName": "BookService",
+        "targetClassName": "DatabaseConnection",
+        "sourceClassToken": "BookService",
+        "targetClassToken": "DatabaseConnection",
+        "targetModuleName": "MongooseCoreModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "534961345"
+    },
+    "541559400": {
+      "source": "-802799766",
+      "target": "273065800",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserLogsModule",
+        "sourceClassName": "UserLogsRepository",
+        "targetClassName": "UserLogsModel",
+        "sourceClassToken": "UserLogsRepository",
+        "targetClassToken": "UserLogsModel",
+        "targetModuleName": "MongooseModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "541559400"
+    },
+    "546084172": {
+      "source": "1132538855",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseAdminModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "546084172"
+    },
+    "562705632": {
+      "source": "-268708364",
+      "target": "-2045439487",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "uniqueUsernameValidation",
+        "targetClassName": "UserService",
+        "sourceClassToken": "uniqueUsernameValidation",
+        "targetClassToken": "UserService",
+        "targetModuleName": "UserModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "562705632"
+    },
+    "565650659": {
+      "source": "-536515674",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "565650659"
+    },
+    "568625547": {
+      "source": "-1287441037",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "568625547"
+    },
+    "573338248": {
+      "source": "-1001049395",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "EventEmitterModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "573338248"
+    },
+    "574245599": {
+      "source": "186171501",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "574245599"
+    },
+    "581662585": {
+      "source": "-536515674",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "581662585"
+    },
+    "584509253": {
+      "source": "-1854488871",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "584509253"
+    },
+    "584653416": {
+      "source": "1712628187",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "584653416"
+    },
+    "607589091": {
+      "source": "1104167347",
+      "target": "-250774239",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "TasksModule",
+        "sourceClassName": "TasksService",
+        "targetClassName": "UserLogsService",
+        "sourceClassToken": "TasksService",
+        "targetClassToken": "UserLogsService",
+        "targetModuleName": "UserLogsModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "607589091"
+    },
+    "608766232": {
+      "source": "-1350909915",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseCoreModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "608766232"
+    },
+    "613449666": {
+      "source": "1404752088",
+      "target": "-1097834842",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "LocalAuthGuard",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "LocalAuthGuard",
+        "targetModuleName": "AuthModule",
+        "injectionType": "decorator"
+      },
+      "id": "613449666"
+    },
+    "622255957": {
+      "source": "-891739327",
+      "target": "1357421246",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "BookModule",
+        "sourceClassName": "BookService",
+        "targetClassName": "CACHE_MANAGER",
+        "sourceClassToken": "BookService",
+        "targetClassToken": "CACHE_MANAGER",
+        "targetModuleName": "CacheModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor"
+      },
+      "id": "622255957"
+    },
+    "664997689": {
+      "source": "-1287441037",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "664997689"
+    },
+    "677989064": {
+      "source": "-643397745",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DiscoveryModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "677989064"
+    },
+    "681815594": {
+      "source": "-470986226",
+      "target": "-1952648617",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ThrottlerModule",
+        "sourceClassName": "Symbol(ThrottlerStorage)",
+        "targetClassName": "THROTTLER:MODULE_OPTIONS",
+        "sourceClassToken": "Symbol(ThrottlerStorage)",
+        "targetClassToken": "THROTTLER:MODULE_OPTIONS",
+        "targetModuleName": "ThrottlerModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "681815594"
+    },
+    "695475905": {
+      "source": "186171501",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "695475905"
+    },
+    "747132788": {
+      "source": "-949539487",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CacheModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "747132788"
+    },
+    "784525888": {
+      "source": "-536515674",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "784525888"
+    },
+    "805244905": {
+      "source": "-1350909915",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseCoreModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "805244905"
+    },
+    "808795612": {
+      "source": "-1001049395",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "EventEmitterModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "808795612"
+    },
+    "811158368": {
+      "source": "-1945923175",
+      "target": "822426632",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ScheduleModule",
+        "sourceClassName": "ScheduleExplorer",
+        "targetClassName": "SchedulerOrchestrator",
+        "sourceClassToken": "ScheduleExplorer",
+        "targetClassToken": "SchedulerOrchestrator",
+        "targetModuleName": "ScheduleModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "811158368"
+    },
+    "815713361": {
+      "source": "303754800",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScheduleModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "815713361"
+    },
+    "841572966": {
+      "source": "303754800",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScheduleModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "841572966"
+    },
+    "861472772": {
+      "source": "-1959092373",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "861472772"
+    },
+    "870226845": {
+      "source": "-756619613",
+      "target": "671882984",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "ThrottlerGuard",
+        "targetClassName": "Reflector",
+        "sourceClassToken": "ThrottlerGuard",
+        "targetClassToken": "Reflector",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "870226845"
+    },
+    "897941956": {
+      "source": "-1854488872",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "897941956"
+    },
+    "901346016": {
+      "source": "-832782462",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "901346016"
+    },
+    "920687522": {
+      "source": "-1134487807",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "920687522"
+    },
+    "928096604": {
+      "source": "-891739327",
+      "target": "-1064443320",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "BookModule",
+        "sourceClassName": "BookService",
+        "targetClassName": "BookRepository",
+        "sourceClassToken": "BookService",
+        "targetClassToken": "BookRepository",
+        "targetModuleName": "BookModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "928096604"
+    },
+    "933557554": {
+      "source": "-643397745",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DiscoveryModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "933557554"
+    },
+    "947540424": {
+      "source": "-1350909915",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseCoreModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "947540424"
+    },
+    "952671388": {
+      "source": "-1064443320",
+      "target": "365214745",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "BookModule",
+        "sourceClassName": "BookRepository",
+        "targetClassName": "BookModel",
+        "sourceClassToken": "BookRepository",
+        "targetClassToken": "BookModel",
+        "targetModuleName": "MongooseModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "952671388"
+    },
+    "962977714": {
+      "source": "-643397745",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DiscoveryModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "962977714"
+    },
+    "965632672": {
+      "source": "1712628187",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "965632672"
+    },
+    "978356204": {
+      "source": "-1134487807",
+      "target": "-536515674",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "JwtModule"
+      },
+      "id": "978356204"
+    },
+    "986640360": {
+      "source": "-1854488872",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "986640360"
+    },
+    "998772595": {
+      "source": "-1134487807",
+      "target": "-1959092373",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "PassportModule"
+      },
+      "id": "998772595"
+    },
+    "1000250034": {
+      "source": "-1001049395",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "EventEmitterModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1000250034"
+    },
+    "1022082071": {
+      "source": "-19112576",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "1022082071"
+    },
+    "1040155186": {
+      "source": "-1001049395",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "EventEmitterModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "1040155186"
+    },
+    "1056428433": {
+      "source": "-19112576",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1056428433"
+    },
+    "1064982417": {
+      "source": "211572259",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigHostModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "1064982417"
+    },
+    "1069540998": {
+      "source": "863216333",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "1069540998"
+    },
+    "1084747280": {
+      "source": "-1945923175",
+      "target": "889654164",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ScheduleModule",
+        "sourceClassName": "ScheduleExplorer",
+        "targetClassName": "SchedulerMetadataAccessor",
+        "sourceClassToken": "ScheduleExplorer",
+        "targetClassToken": "SchedulerMetadataAccessor",
+        "targetModuleName": "ScheduleModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor"
+      },
+      "id": "1084747280"
+    },
+    "1089972093": {
+      "source": "-686360160",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "1089972093"
+    },
+    "1113065111": {
+      "source": "-1287441037",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1113065111"
+    },
+    "1134336077": {
+      "source": "-536515674",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1134336077"
+    },
+    "1145350370": {
+      "source": "699745446",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "1145350370"
+    },
+    "1165193615": {
+      "source": "-686360160",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1165193615"
+    },
+    "1175183130": {
+      "source": "1070370213",
+      "target": "-1900804336",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "JwtModule",
+        "sourceClassName": "JwtService",
+        "targetClassName": "JWT_MODULE_OPTIONS",
+        "sourceClassToken": "JwtService",
+        "targetClassToken": "JWT_MODULE_OPTIONS",
+        "targetModuleName": "JwtModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1175183130"
+    },
+    "1178621493": {
+      "source": "211572259",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigHostModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "1178621493"
+    },
+    "1207532172": {
+      "source": "-949539487",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CacheModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1207532172"
+    },
+    "1207819375": {
+      "source": "-19112576",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1207819375"
+    },
+    "1242335920": {
+      "source": "-949539487",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CacheModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "1242335920"
+    },
+    "1242767732": {
+      "source": "186171501",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "1242767732"
+    },
+    "1258116276": {
+      "source": "-802799766",
+      "target": "1691762100",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserLogsModule",
+        "sourceClassName": "UserLogsRepository",
+        "targetClassName": "EventEmitter",
+        "sourceClassToken": "UserLogsRepository",
+        "targetClassToken": "EventEmitter",
+        "targetModuleName": "EventEmitterModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "1258116276"
+    },
+    "1267978871": {
+      "source": "1310883338",
+      "target": "174766762",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "CONFIGURATION_LOADER",
+        "targetClassName": "CONFIGURATION(database)",
+        "sourceClassToken": "CONFIGURATION_LOADER",
+        "targetClassToken": "CONFIGURATION(database)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor"
+      },
+      "id": "1267978871"
+    },
+    "1293530579": {
+      "source": "-503631789",
+      "target": "174766762",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "CONFIGURATION(database)",
+        "sourceClassToken": "ConfigService",
+        "targetClassToken": "CONFIGURATION(database)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor"
+      },
+      "id": "1293530579"
+    },
+    "1346890576": {
+      "source": "233936880",
+      "target": "-2130614055",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AppModule",
+        "sourceClassName": "AppController",
+        "targetClassName": "AppService",
+        "sourceClassToken": "AppController",
+        "targetClassToken": "AppService",
+        "targetModuleName": "AppModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1346890576"
+    },
+    "1353642126": {
+      "source": "-1056340138",
+      "target": "-986645119",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "FirebaseModule",
+        "sourceClassName": "FirebaseController",
+        "targetClassName": "FirebaseService",
+        "sourceClassToken": "FirebaseController",
+        "targetClassToken": "FirebaseService",
+        "targetModuleName": "FirebaseModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1353642126"
+    },
+    "1369936021": {
+      "source": "-1287441037",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1369936021"
+    },
+    "1381467153": {
+      "source": "-832782462",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1381467153"
+    },
+    "1412369029": {
+      "source": "186171501",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "1412369029"
+    },
+    "1412386560": {
+      "source": "233936880",
+      "target": "-503631789",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AppModule",
+        "sourceClassName": "AppController",
+        "targetClassName": "ConfigService",
+        "sourceClassToken": "AppController",
+        "targetClassToken": "ConfigService",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "1412386560"
+    },
+    "1414936007": {
+      "source": "-536515674",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "1414936007"
+    },
+    "1426780136": {
+      "source": "-1996665865",
+      "target": "92420881",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "MongooseModule",
+        "sourceClassName": "UserModel",
+        "targetClassName": "DatabaseConnection",
+        "sourceClassToken": "UserModel",
+        "targetClassToken": "DatabaseConnection",
+        "targetModuleName": "MongooseCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1426780136"
+    },
+    "1448200961": {
+      "source": "-832782462",
+      "target": "699745446",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "MongooseModule"
+      },
+      "id": "1448200961"
+    },
+    "1450315419": {
+      "source": "186171501",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "1450315419"
+    },
+    "1461264782": {
+      "source": "166481974",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MulterModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "1461264782"
+    },
+    "1475359539": {
+      "source": "-1944919247",
+      "target": "-1952648617",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "ThrottlerGuard",
+        "targetClassName": "THROTTLER:MODULE_OPTIONS",
+        "sourceClassToken": "ThrottlerGuard",
+        "targetClassToken": "THROTTLER:MODULE_OPTIONS",
+        "targetModuleName": "ThrottlerModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1475359539"
+    },
+    "1475920902": {
+      "source": "-503631789",
+      "target": "930519593",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "ConfigService",
+        "sourceClassToken": "ConfigService",
+        "targetClassToken": "Symbol(CONFIG_SERVICE)",
+        "targetModuleName": "ConfigHostModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1475920902"
+    },
+    "1476243610": {
+      "source": "303754800",
+      "target": "-643397745",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScheduleModule",
+        "targetModuleName": "DiscoveryModule"
+      },
+      "id": "1476243610"
+    },
+    "1479632924": {
+      "source": "-1854488872",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "1479632924"
+    },
+    "1485032170": {
+      "source": "166481974",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MulterModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "1485032170"
+    },
+    "1497086506": {
+      "source": "1712628187",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1497086506"
+    },
+    "1498156362": {
+      "source": "863216333",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "1498156362"
+    },
+    "1507231464": {
+      "source": "-1945923175",
+      "target": "-438112115",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ScheduleModule",
+        "sourceClassName": "ScheduleExplorer",
+        "targetClassName": "MetadataScanner",
+        "sourceClassToken": "ScheduleExplorer",
+        "targetClassToken": "MetadataScanner",
+        "targetModuleName": "DiscoveryModule",
+        "keyOrIndex": 3,
+        "injectionType": "constructor"
+      },
+      "id": "1507231464"
+    },
+    "1510030159": {
+      "source": "-832782462",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1510030159"
+    },
+    "1555020528": {
+      "source": "-949539487",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CacheModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "1555020528"
+    },
+    "1556833522": {
+      "source": "1357421246",
+      "target": "-1871582906",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "CacheModule",
+        "sourceClassName": "CACHE_MANAGER",
+        "targetClassName": "CACHE_MODULE_OPTIONS",
+        "sourceClassToken": "CACHE_MANAGER",
+        "targetClassToken": "CACHE_MODULE_OPTIONS",
+        "targetModuleName": "CacheModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1556833522"
+    },
+    "1557623195": {
+      "source": "-1854488871",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "1557623195"
+    },
+    "1560832999": {
+      "source": "-832782462",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "1560832999"
+    },
+    "1570862350": {
+      "source": "-1001049395",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "EventEmitterModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "1570862350"
+    },
+    "1571804328": {
+      "source": "-250774239",
+      "target": "-2045439487",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserLogsModule",
+        "sourceClassName": "UserLogsService",
+        "targetClassName": "UserService",
+        "sourceClassToken": "UserLogsService",
+        "targetClassToken": "UserService",
+        "targetModuleName": "UserModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor"
+      },
+      "id": "1571804328"
+    },
+    "1572458969": {
+      "source": "1404752088",
+      "target": "-793915935",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "AuthService",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "AuthService",
+        "targetModuleName": "AuthModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1572458969"
+    },
+    "1576995337": {
+      "source": "1694909263",
+      "target": "671882984",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "EventEmitterModule",
+        "sourceClassName": "EventsMetadataAccessor",
+        "targetClassName": "Reflector",
+        "sourceClassToken": "EventsMetadataAccessor",
+        "targetClassToken": "Reflector",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "1576995337"
+    },
+    "1577684966": {
+      "source": "-1287441037",
+      "target": "-1537098012",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "UserModule"
+      },
+      "id": "1577684966"
+    },
+    "1587842925": {
+      "source": "273065800",
+      "target": "92420881",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "MongooseModule",
+        "sourceClassName": "UserLogsModel",
+        "targetClassName": "DatabaseConnection",
+        "sourceClassToken": "UserLogsModel",
+        "targetClassToken": "DatabaseConnection",
+        "targetModuleName": "MongooseCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1587842925"
+    },
+    "1601699164": {
+      "source": "186171501",
+      "target": "-1287441037",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "UserLogsModule"
+      },
+      "id": "1601699164"
+    },
+    "1602100572": {
+      "source": "166481974",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MulterModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1602100572"
+    },
+    "1635613466": {
+      "source": "-1854488870",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "1635613466"
+    },
+    "1662237665": {
+      "source": "1404752088",
+      "target": "-756619613",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "ThrottlerGuard",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "ThrottlerGuard",
+        "targetModuleName": "AuthModule",
+        "injectionType": "decorator"
+      },
+      "id": "1662237665"
+    },
+    "1664703496": {
+      "source": "1132538855",
+      "target": "863216333",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseAdminModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "1664703496"
+    },
+    "1680339265": {
+      "source": "-832782462",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "1680339265"
+    },
+    "1690588001": {
+      "source": "-1134487807",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "1690588001"
+    },
+    "1727497556": {
+      "source": "-1854488870",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "1727497556"
+    },
+    "1731674536": {
+      "source": "889654164",
+      "target": "671882984",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ScheduleModule",
+        "sourceClassName": "SchedulerMetadataAccessor",
+        "targetClassName": "Reflector",
+        "sourceClassToken": "SchedulerMetadataAccessor",
+        "targetClassToken": "Reflector",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "1731674536"
+    },
+    "1759774274": {
+      "source": "-643397745",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DiscoveryModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "1759774274"
+    },
+    "1762321493": {
+      "source": "-1854488871",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "1762321493"
+    },
+    "1786225585": {
+      "source": "1482218087",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "1786225585"
+    },
+    "1791876867": {
+      "source": "-1854488871",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "1791876867"
+    },
+    "1797145430": {
+      "source": "-1854488872",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "1797145430"
+    },
+    "1811023874": {
+      "source": "303754800",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScheduleModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1811023874"
+    },
+    "1812364118": {
+      "source": "1310883338",
+      "target": "332906476",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "CONFIGURATION_LOADER",
+        "targetClassName": "CONFIGURATION(simplifi)",
+        "sourceClassToken": "CONFIGURATION_LOADER",
+        "targetClassToken": "CONFIGURATION(simplifi)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 5,
+        "injectionType": "constructor"
+      },
+      "id": "1812364118"
+    },
+    "1841939208": {
+      "source": "-2130614055",
+      "target": "1527120251",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AppModule",
+        "sourceClassName": "AppService",
+        "targetClassName": "FIREBASE_ADMIN_INJECT",
+        "sourceClassToken": "AppService",
+        "targetClassToken": "FIREBASE_ADMIN_INJECT",
+        "targetModuleName": "FirebaseAdminModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1841939208"
+    },
+    "1847175701": {
+      "source": "1404752088",
+      "target": "-239266870",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "JwtAuthGuard",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "JwtAuthGuard",
+        "targetModuleName": "AuthModule",
+        "injectionType": "decorator"
+      },
+      "id": "1847175701"
+    },
+    "1847175702": {
+      "source": "1404752088",
+      "target": "-239266870",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "JwtAuthGuard",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "JwtAuthGuard",
+        "targetModuleName": "AuthModule",
+        "injectionType": "decorator"
+      },
+      "id": "1847175702"
+    },
+    "1847175703": {
+      "source": "1404752088",
+      "target": "-239266870",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "JwtAuthGuard",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "JwtAuthGuard",
+        "targetModuleName": "AuthModule",
+        "injectionType": "decorator"
+      },
+      "id": "1847175703"
+    },
+    "1847175704": {
+      "source": "1404752088",
+      "target": "-239266870",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "JwtAuthGuard",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "JwtAuthGuard",
+        "targetModuleName": "AuthModule",
+        "injectionType": "decorator"
+      },
+      "id": "1847175704"
+    },
+    "1847175705": {
+      "source": "1404752088",
+      "target": "-239266870",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "JwtAuthGuard",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "JwtAuthGuard",
+        "targetModuleName": "AuthModule",
+        "injectionType": "decorator"
+      },
+      "id": "1847175705"
+    },
+    "1853626034": {
+      "source": "1132538855",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseAdminModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1853626034"
+    },
+    "1872738994": {
+      "source": "-1350909915",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseCoreModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "1872738994"
+    },
+    "1889070744": {
+      "source": "-1350909915",
+      "target": "863216333",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseCoreModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "1889070744"
+    },
+    "1901737855": {
+      "source": "863216333",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "1901737855"
+    },
+    "1902208350": {
+      "source": "-1871582906",
+      "target": "-503631788",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "CacheModule",
+        "sourceClassName": "CACHE_MODULE_OPTIONS",
+        "targetClassName": "ConfigService",
+        "sourceClassToken": "CACHE_MODULE_OPTIONS",
+        "targetClassToken": "ConfigService",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "1902208350"
+    },
+    "1908115683": {
+      "source": "-1134487807",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "1908115683"
+    },
+    "1911735734": {
+      "source": "-19112576",
+      "target": "-832782462",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "BookModule"
+      },
+      "id": "1911735734"
+    },
+    "1923272676": {
+      "source": "-1854488872",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "1923272676"
+    },
+    "1931733078": {
+      "source": "-1001049395",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "EventEmitterModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "1931733078"
+    },
+    "1940456107": {
+      "source": "-536515674",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1940456107"
+    },
+    "1987250278": {
+      "source": "1482218087",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "1987250278"
+    },
+    "1996759452": {
+      "source": "1482218087",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "1996759452"
+    },
+    "2000807305": {
+      "source": "-19112576",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "2000807305"
+    },
+    "2035716926": {
+      "source": "1132538855",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseAdminModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "2035716926"
+    },
+    "2061516803": {
+      "source": "-1001049395",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "EventEmitterModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "2061516803"
+    },
+    "2075530288": {
+      "source": "-1854488870",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "2075530288"
+    },
+    "2075564142": {
+      "source": "1712628187",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "2075564142"
+    },
+    "2080287321": {
+      "source": "-1537098012",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "2080287321"
+    },
+    "2099251801": {
+      "source": "211572259",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigHostModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "2099251801"
+    },
+    "2100140299": {
+      "source": "-19112576",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "2100140299"
+    },
+    "2109546608": {
+      "source": "863216333",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "2109546608"
+    },
+    "2119724754": {
+      "source": "863216333",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "2119724754"
+    },
+    "2123110072": {
+      "source": "166481974",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MulterModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "2123110072"
+    },
+    "2129970765": {
+      "source": "-941557008",
+      "target": "1986699406",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "MongooseCoreModule",
+        "sourceClassName": "MongooseCoreModule",
+        "targetClassName": "MongooseConnectionName",
+        "sourceClassToken": "MongooseCoreModule",
+        "targetClassToken": "MongooseConnectionName",
+        "targetModuleName": "MongooseCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "2129970765"
+    },
+    "-1759625292": {
+      "source": "-553129559",
+      "target": "-326832201",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "InternalCoreModule",
+        "sourceClassName": "HttpAdapterHost",
+        "targetClassName": "HttpAdapterHost",
+        "sourceClassToken": "HttpAdapterHost",
+        "targetClassToken": "HttpAdapterHost",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-1759625292"
+    },
+    "-1088946238": {
+      "source": "-941557008",
+      "target": "902560543",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "MongooseCoreModule",
+        "sourceClassName": "MongooseCoreModule",
+        "targetClassName": "ModuleRef",
+        "sourceClassToken": "MongooseCoreModule",
+        "targetClassToken": "ModuleRef",
+        "targetModuleName": "MongooseCoreModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-1088946238"
+    },
+    "-951393523": {
+      "source": "930519593",
+      "target": "1063746662",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigHostModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "CONFIGURATION_TOKEN",
+        "sourceClassToken": "Symbol(CONFIG_SERVICE)",
+        "targetClassToken": "CONFIGURATION_TOKEN",
+        "targetModuleName": "ConfigHostModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-951393523"
+    },
+    "-572606460": {
+      "source": "822426632",
+      "target": "1879849979",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ScheduleModule",
+        "sourceClassName": "SchedulerOrchestrator",
+        "targetClassName": "SchedulerRegistry",
+        "sourceClassToken": "SchedulerOrchestrator",
+        "targetClassToken": "SchedulerRegistry",
+        "targetModuleName": "ScheduleModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-572606460"
+    },
+    "-221187751": {
+      "source": "400681591",
+      "target": "-26938366",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "DiscoveryModule",
+        "sourceClassName": "DiscoveryService",
+        "targetClassName": "ModulesContainer",
+        "sourceClassToken": "DiscoveryService",
+        "targetClassToken": "ModulesContainer",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-221187751"
+    },
+    "-1045206778": {
+      "source": "1310883338",
+      "target": "1063746662",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "CONFIGURATION_LOADER",
+        "targetClassName": "CONFIGURATION_TOKEN",
+        "sourceClassToken": "CONFIGURATION_LOADER",
+        "targetClassToken": "CONFIGURATION_TOKEN",
+        "targetModuleName": "ConfigHostModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1045206778"
+    },
+    "-1627331540": {
+      "source": "1310883338",
+      "target": "-1453472830",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "CONFIGURATION_LOADER",
+        "targetClassName": "CONFIGURATION(jwt)",
+        "sourceClassToken": "CONFIGURATION_LOADER",
+        "targetClassToken": "CONFIGURATION(jwt)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-1627331540"
+    },
+    "-1387602317": {
+      "source": "1310883338",
+      "target": "1900937998",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "CONFIGURATION_LOADER",
+        "targetClassName": "CONFIGURATION(redis)",
+        "sourceClassToken": "CONFIGURATION_LOADER",
+        "targetClassToken": "CONFIGURATION(redis)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 3,
+        "injectionType": "constructor"
+      },
+      "id": "-1387602317"
+    },
+    "-553170223": {
+      "source": "1310883338",
+      "target": "-677503586",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "CONFIGURATION_LOADER",
+        "targetClassName": "CONFIGURATION(firebase)",
+        "sourceClassToken": "CONFIGURATION_LOADER",
+        "targetClassToken": "CONFIGURATION(firebase)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 4,
+        "injectionType": "constructor"
+      },
+      "id": "-553170223"
+    },
+    "-1042146027": {
+      "source": "-1944919247",
+      "target": "-470986226",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "ThrottlerGuard",
+        "targetClassName": "Symbol(ThrottlerStorage)",
+        "sourceClassToken": "ThrottlerGuard",
+        "targetClassToken": "Symbol(ThrottlerStorage)",
+        "targetModuleName": "ThrottlerModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-1042146027"
+    },
+    "-1283550575": {
+      "source": "-1944919247",
+      "target": "671882984",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "ThrottlerGuard",
+        "targetClassName": "Reflector",
+        "sourceClassToken": "ThrottlerGuard",
+        "targetClassToken": "Reflector",
+        "targetModuleName": "InternalCoreModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-1283550575"
+    },
+    "-1851085465": {
+      "source": "-503631788",
+      "target": "930519593",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "ConfigService",
+        "sourceClassToken": "ConfigService",
+        "targetClassToken": "Symbol(CONFIG_SERVICE)",
+        "targetModuleName": "ConfigHostModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1851085465"
+    },
+    "-1466220144": {
+      "source": "-503631789",
+      "target": "-1453472830",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "CONFIGURATION(jwt)",
+        "sourceClassToken": "ConfigService",
+        "targetClassToken": "CONFIGURATION(jwt)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-1466220144"
+    },
+    "-1339379925": {
+      "source": "-503631789",
+      "target": "1900937998",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "CONFIGURATION(redis)",
+        "sourceClassToken": "ConfigService",
+        "targetClassToken": "CONFIGURATION(redis)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 3,
+        "injectionType": "constructor"
+      },
+      "id": "-1339379925"
+    },
+    "-765273461": {
+      "source": "-503631789",
+      "target": "-677503586",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "CONFIGURATION(firebase)",
+        "sourceClassToken": "ConfigService",
+        "targetClassToken": "CONFIGURATION(firebase)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 4,
+        "injectionType": "constructor"
+      },
+      "id": "-765273461"
+    },
+    "-285007238": {
+      "source": "-503631789",
+      "target": "332906476",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ConfigModule",
+        "sourceClassName": "ConfigService",
+        "targetClassName": "CONFIGURATION(simplifi)",
+        "sourceClassToken": "ConfigService",
+        "targetClassToken": "CONFIGURATION(simplifi)",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 5,
+        "injectionType": "constructor"
+      },
+      "id": "-285007238"
+    },
+    "-942303489": {
+      "source": "-1945923175",
+      "target": "400681591",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "ScheduleModule",
+        "sourceClassName": "ScheduleExplorer",
+        "targetClassName": "DiscoveryService",
+        "sourceClassToken": "ScheduleExplorer",
+        "targetClassToken": "DiscoveryService",
+        "targetModuleName": "DiscoveryModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-942303489"
+    },
+    "-948654809": {
+      "source": "708530116",
+      "target": "400681591",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "EventEmitterModule",
+        "sourceClassName": "EventSubscribersLoader",
+        "targetClassName": "DiscoveryService",
+        "sourceClassToken": "EventSubscribersLoader",
+        "targetClassToken": "DiscoveryService",
+        "targetModuleName": "DiscoveryModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-948654809"
+    },
+    "-947329644": {
+      "source": "708530116",
+      "target": "1691762100",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "EventEmitterModule",
+        "sourceClassName": "EventSubscribersLoader",
+        "targetClassName": "EventEmitter",
+        "sourceClassToken": "EventSubscribersLoader",
+        "targetClassToken": "EventEmitter",
+        "targetModuleName": "EventEmitterModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-947329644"
+    },
+    "-752978942": {
+      "source": "708530116",
+      "target": "1694909263",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "EventEmitterModule",
+        "sourceClassName": "EventSubscribersLoader",
+        "targetClassName": "EventsMetadataAccessor",
+        "sourceClassToken": "EventSubscribersLoader",
+        "targetClassToken": "EventsMetadataAccessor",
+        "targetModuleName": "EventEmitterModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor"
+      },
+      "id": "-752978942"
+    },
+    "-1241037425": {
+      "source": "708530116",
+      "target": "-438112115",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "EventEmitterModule",
+        "sourceClassName": "EventSubscribersLoader",
+        "targetClassName": "MetadataScanner",
+        "sourceClassToken": "EventSubscribersLoader",
+        "targetClassToken": "MetadataScanner",
+        "targetModuleName": "DiscoveryModule",
+        "keyOrIndex": 3,
+        "injectionType": "constructor"
+      },
+      "id": "-1241037425"
+    },
+    "-1999650742": {
+      "source": "708530116",
+      "target": "1252421063",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "EventEmitterModule",
+        "sourceClassName": "EventSubscribersLoader",
+        "targetClassName": "ModuleRef",
+        "sourceClassToken": "EventSubscribersLoader",
+        "targetClassToken": "ModuleRef",
+        "targetModuleName": "EventEmitterModule",
+        "keyOrIndex": 4,
+        "injectionType": "constructor",
+        "internal": true
+      },
+      "id": "-1999650742"
+    },
+    "-261148595": {
+      "source": "-473971423",
+      "target": "-503631788",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "FirebaseAdminModule",
+        "sourceClassName": "FIREBASE_ADMIN_MODULE_OPTIONS",
+        "targetClassName": "ConfigService",
+        "sourceClassToken": "FIREBASE_ADMIN_MODULE_OPTIONS",
+        "targetClassToken": "ConfigService",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-261148595"
+    },
+    "-1400524977": {
+      "source": "-1033003235",
+      "target": "-503631788",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "MongooseCoreModule",
+        "sourceClassName": "MongooseModuleOptions",
+        "targetClassName": "ConfigService",
+        "sourceClassToken": "MongooseModuleOptions",
+        "targetClassToken": "ConfigService",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1400524977"
+    },
+    "-201694655": {
+      "source": "-1900804336",
+      "target": "-503631789",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "JwtModule",
+        "sourceClassName": "JWT_MODULE_OPTIONS",
+        "targetClassName": "ConfigService",
+        "sourceClassToken": "JWT_MODULE_OPTIONS",
+        "targetClassToken": "ConfigService",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-201694655"
+    },
+    "-597499017": {
+      "source": "385041166",
+      "target": "-503631789",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "JwtStrategy",
+        "targetClassName": "ConfigService",
+        "sourceClassToken": "JwtStrategy",
+        "targetClassToken": "ConfigService",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-597499017"
+    },
+    "-1622609562": {
+      "source": "1527120251",
+      "target": "-473971423",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "FirebaseAdminModule",
+        "sourceClassName": "FIREBASE_ADMIN_INJECT",
+        "targetClassName": "FIREBASE_ADMIN_MODULE_OPTIONS",
+        "sourceClassToken": "FIREBASE_ADMIN_INJECT",
+        "targetClassToken": "FIREBASE_ADMIN_MODULE_OPTIONS",
+        "targetModuleName": "FirebaseAdminModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1622609562"
+    },
+    "-1997127574": {
+      "source": "-986645119",
+      "target": "1527120251",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "FirebaseModule",
+        "sourceClassName": "FirebaseService",
+        "targetClassName": "FIREBASE_ADMIN_INJECT",
+        "sourceClassToken": "FirebaseService",
+        "targetClassToken": "FIREBASE_ADMIN_INJECT",
+        "targetModuleName": "FirebaseAdminModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1997127574"
+    },
+    "-244775021": {
+      "source": "-986645119",
+      "target": "-503631789",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "FirebaseModule",
+        "sourceClassName": "FirebaseService",
+        "targetClassName": "ConfigService",
+        "sourceClassToken": "FirebaseService",
+        "targetClassToken": "ConfigService",
+        "targetModuleName": "ConfigModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-244775021"
+    },
+    "-1443035521": {
+      "source": "-2070751084",
+      "target": "2141638038",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "FirebaseModule",
+        "sourceClassName": "ab24ba9d8e3b6208085de",
+        "targetClassName": "MULTER_MODULE_OPTIONS",
+        "sourceClassToken": "ab24ba9d8e3b6208085de",
+        "targetClassToken": "MULTER_MODULE_OPTIONS",
+        "targetModuleName": "MulterModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1443035521"
+    },
+    "-1893804915": {
+      "source": "365214745",
+      "target": "92420881",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "MongooseModule",
+        "sourceClassName": "BookModel",
+        "targetClassName": "DatabaseConnection",
+        "sourceClassToken": "BookModel",
+        "targetClassToken": "DatabaseConnection",
+        "targetModuleName": "MongooseCoreModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1893804915"
+    },
+    "-756896791": {
+      "source": "-1996665865",
+      "target": "92420881",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "MongooseModule",
+        "sourceClassName": "UserModel",
+        "targetClassName": "DatabaseConnection",
+        "sourceClassToken": "UserModel",
+        "targetClassToken": "DatabaseConnection",
+        "targetModuleName": "MongooseCoreModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-756896791"
+    },
+    "-1158618981": {
+      "source": "-1064443320",
+      "target": "365214745",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "BookModule",
+        "sourceClassName": "BookRepository",
+        "targetClassName": "BookModel",
+        "sourceClassToken": "BookRepository",
+        "targetClassToken": "BookModel",
+        "targetModuleName": "MongooseModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1158618981"
+    },
+    "-607399761": {
+      "source": "-1972613748",
+      "target": "-1996665865",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserModule",
+        "sourceClassName": "UserRepository",
+        "targetClassName": "UserModel",
+        "sourceClassToken": "UserRepository",
+        "targetClassToken": "UserModel",
+        "targetModuleName": "MongooseModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-607399761"
+    },
+    "-1177843380": {
+      "source": "-2045439487",
+      "target": "-1972613748",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserModule",
+        "sourceClassName": "UserService",
+        "targetClassName": "UserRepository",
+        "sourceClassToken": "UserService",
+        "targetClassToken": "UserRepository",
+        "targetModuleName": "UserModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1177843380"
+    },
+    "-1694303122": {
+      "source": "-2045439487",
+      "target": "1879849979",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserModule",
+        "sourceClassName": "UserService",
+        "targetClassName": "SchedulerRegistry",
+        "sourceClassToken": "UserService",
+        "targetClassToken": "SchedulerRegistry",
+        "targetModuleName": "ScheduleModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-1694303122"
+    },
+    "-2115894434": {
+      "source": "-704798827",
+      "target": "-891739327",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "BookModule",
+        "sourceClassName": "UniqueTitleValidation",
+        "targetClassName": "BookService",
+        "sourceClassToken": "UniqueTitleValidation",
+        "targetClassToken": "BookService",
+        "targetModuleName": "BookModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-2115894434"
+    },
+    "-455995327": {
+      "source": "1844337044",
+      "target": "-2045439487",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserModule",
+        "sourceClassName": "userStatus",
+        "targetClassName": "UserService",
+        "sourceClassToken": "userStatus",
+        "targetClassToken": "UserService",
+        "targetModuleName": "UserModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-455995327"
+    },
+    "-714894045": {
+      "source": "-333227768",
+      "target": "-2045439487",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "EmailExistValidation",
+        "targetClassName": "UserService",
+        "sourceClassToken": "EmailExistValidation",
+        "targetClassToken": "UserService",
+        "targetModuleName": "UserModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-714894045"
+    },
+    "-400992719": {
+      "source": "-922458505",
+      "target": "-2045439487",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "PasswordMatchValidation",
+        "targetClassName": "UserService",
+        "sourceClassToken": "PasswordMatchValidation",
+        "targetClassToken": "UserService",
+        "targetModuleName": "UserModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-400992719"
+    },
+    "-655310392": {
+      "source": "-250774239",
+      "target": "-986645119",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserLogsModule",
+        "sourceClassName": "UserLogsService",
+        "targetClassName": "FirebaseService",
+        "sourceClassToken": "UserLogsService",
+        "targetClassToken": "FirebaseService",
+        "targetModuleName": "FirebaseModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-655310392"
+    },
+    "-2128169456": {
+      "source": "-1056340138",
+      "target": "-2045439487",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "FirebaseModule",
+        "sourceClassName": "FirebaseController",
+        "targetClassName": "UserService",
+        "sourceClassToken": "FirebaseController",
+        "targetClassToken": "UserService",
+        "targetModuleName": "UserModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-2128169456"
+    },
+    "-2126643976": {
+      "source": "700230682",
+      "target": "-891739327",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "BookModule",
+        "sourceClassName": "BookController",
+        "targetClassName": "BookService",
+        "sourceClassToken": "BookController",
+        "targetClassToken": "BookService",
+        "targetModuleName": "BookModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-2126643976"
+    },
+    "-660966647": {
+      "source": "-793915935",
+      "target": "1070370213",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthService",
+        "targetClassName": "JwtService",
+        "sourceClassToken": "AuthService",
+        "targetClassToken": "JwtService",
+        "targetModuleName": "JwtModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-660966647"
+    },
+    "-323646583": {
+      "source": "-793915935",
+      "target": "-2045439487",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthService",
+        "targetClassName": "UserService",
+        "sourceClassToken": "AuthService",
+        "targetClassToken": "UserService",
+        "targetModuleName": "UserModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-323646583"
+    },
+    "-267457889": {
+      "source": "-793915935",
+      "target": "-250774239",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthService",
+        "targetClassName": "UserLogsService",
+        "sourceClassToken": "AuthService",
+        "targetClassToken": "UserLogsService",
+        "targetModuleName": "UserLogsModule",
+        "keyOrIndex": 2,
+        "injectionType": "constructor"
+      },
+      "id": "-267457889"
+    },
+    "-684623811": {
+      "source": "240635964",
+      "target": "-250774239",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "UserLogsModule",
+        "sourceClassName": "UserLogsController",
+        "targetClassName": "UserLogsService",
+        "sourceClassToken": "UserLogsController",
+        "targetClassToken": "UserLogsService",
+        "targetModuleName": "UserLogsModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-684623811"
+    },
+    "-1364207041": {
+      "source": "-756619613",
+      "target": "-1952648617",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "ThrottlerGuard",
+        "targetClassName": "THROTTLER:MODULE_OPTIONS",
+        "sourceClassToken": "ThrottlerGuard",
+        "targetClassToken": "THROTTLER:MODULE_OPTIONS",
+        "targetModuleName": "ThrottlerModule",
+        "keyOrIndex": 0,
+        "injectionType": "constructor"
+      },
+      "id": "-1364207041"
+    },
+    "-585830879": {
+      "source": "-756619613",
+      "target": "-470986226",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "ThrottlerGuard",
+        "targetClassName": "Symbol(ThrottlerStorage)",
+        "sourceClassToken": "ThrottlerGuard",
+        "targetClassToken": "Symbol(ThrottlerStorage)",
+        "targetModuleName": "ThrottlerModule",
+        "keyOrIndex": 1,
+        "injectionType": "constructor"
+      },
+      "id": "-585830879"
+    },
+    "-1453343316": {
+      "source": "-19112576",
+      "target": "-1287441037",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "UserLogsModule"
+      },
+      "id": "-1453343316"
+    },
+    "-844262897": {
+      "source": "-19112576",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-844262897"
+    },
+    "-320259535": {
+      "source": "-19112576",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-320259535"
+    },
+    "-1192044178": {
+      "source": "-19112576",
+      "target": "186171501",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "TasksModule"
+      },
+      "id": "-1192044178"
+    },
+    "-1091370085": {
+      "source": "-19112576",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1091370085"
+    },
+    "-815553404": {
+      "source": "-19112576",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AppModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-815553404"
+    },
+    "-1466026791": {
+      "source": "-832782462",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1466026791"
+    },
+    "-784168651": {
+      "source": "-832782462",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-784168651"
+    },
+    "-360411389": {
+      "source": "-832782462",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-360411389"
+    },
+    "-724259213": {
+      "source": "-832782462",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "BookModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-724259213"
+    },
+    "-2001102970": {
+      "source": "699745446",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-2001102970"
+    },
+    "-1937710696": {
+      "source": "699745446",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1937710696"
+    },
+    "-628924606": {
+      "source": "699745446",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-628924606"
+    },
+    "-1363733154": {
+      "source": "699745446",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-1363733154"
+    },
+    "-1654114646": {
+      "source": "699745446",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-1654114646"
+    },
+    "-1556683678": {
+      "source": "-1134487807",
+      "target": "-1537098012",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "UserModule"
+      },
+      "id": "-1556683678"
+    },
+    "-1088610631": {
+      "source": "-1134487807",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1088610631"
+    },
+    "-1377619055": {
+      "source": "-1134487807",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1377619055"
+    },
+    "-1941719021": {
+      "source": "-1134487807",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-1941719021"
+    },
+    "-1199480043": {
+      "source": "-1134487807",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-1199480043"
+    },
+    "-1762353175": {
+      "source": "-1134487807",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "AuthModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-1762353175"
+    },
+    "-238973953": {
+      "source": "-1537098012",
+      "target": "-1854488872",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "MongooseModule"
+      },
+      "id": "-238973953"
+    },
+    "-837325887": {
+      "source": "-1537098012",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-837325887"
+    },
+    "-1978422820": {
+      "source": "-1537098012",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-1978422820"
+    },
+    "-450478963": {
+      "source": "-1537098012",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-450478963"
+    },
+    "-2052176765": {
+      "source": "-1537098012",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-2052176765"
+    },
+    "-271113117": {
+      "source": "-1537098012",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-271113117"
+    },
+    "-418876305": {
+      "source": "-1537098012",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-418876305"
+    },
+    "-103257323": {
+      "source": "-1854488872",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-103257323"
+    },
+    "-1121554618": {
+      "source": "-1854488872",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-1121554618"
+    },
+    "-1855970510": {
+      "source": "-1854488872",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-1855970510"
+    },
+    "-2080525824": {
+      "source": "-1854488872",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-2080525824"
+    },
+    "-211117814": {
+      "source": "-1287441037",
+      "target": "-686360160",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "FirebaseModule"
+      },
+      "id": "-211117814"
+    },
+    "-1961837718": {
+      "source": "-1287441037",
+      "target": "-1854488871",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "MongooseModule"
+      },
+      "id": "-1961837718"
+    },
+    "-912484255": {
+      "source": "-1287441037",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-912484255"
+    },
+    "-1690005831": {
+      "source": "-1287441037",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-1690005831"
+    },
+    "-580714643": {
+      "source": "-1287441037",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "UserLogsModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-580714643"
+    },
+    "-1243909410": {
+      "source": "-686360160",
+      "target": "-1537098012",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "UserModule"
+      },
+      "id": "-1243909410"
+    },
+    "-1309724151": {
+      "source": "-686360160",
+      "target": "166481974",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "MulterModule"
+      },
+      "id": "-1309724151"
+    },
+    "-1818851123": {
+      "source": "-686360160",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1818851123"
+    },
+    "-71270573": {
+      "source": "-686360160",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-71270573"
+    },
+    "-2073469689": {
+      "source": "-686360160",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-2073469689"
+    },
+    "-528586139": {
+      "source": "-686360160",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-528586139"
+    },
+    "-460921999": {
+      "source": "-686360160",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-460921999"
+    },
+    "-1945234772": {
+      "source": "166481974",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MulterModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-1945234772"
+    },
+    "-1723578259": {
+      "source": "166481974",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MulterModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-1723578259"
+    },
+    "-1731039906": {
+      "source": "166481974",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MulterModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-1731039906"
+    },
+    "-379425356": {
+      "source": "166481974",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MulterModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-379425356"
+    },
+    "-1379015872": {
+      "source": "166481974",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MulterModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-1379015872"
+    },
+    "-138081260": {
+      "source": "-1854488871",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-138081260"
+    },
+    "-1043564347": {
+      "source": "-1854488871",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-1043564347"
+    },
+    "-2037703759": {
+      "source": "-1854488871",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-2037703759"
+    },
+    "-2002535553": {
+      "source": "-1854488871",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-2002535553"
+    },
+    "-1860320089": {
+      "source": "-1854488871",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-1860320089"
+    },
+    "-1594701976": {
+      "source": "-1959092373",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1594701976"
+    },
+    "-947841774": {
+      "source": "-1959092373",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-947841774"
+    },
+    "-1905114051": {
+      "source": "-1959092373",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-1905114051"
+    },
+    "-1739714770": {
+      "source": "-1959092373",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-1739714770"
+    },
+    "-701661116": {
+      "source": "-1959092373",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-701661116"
+    },
+    "-185737966": {
+      "source": "-1959092373",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-185737966"
+    },
+    "-1696795888": {
+      "source": "-1959092373",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "PassportModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-1696795888"
+    },
+    "-2121949613": {
+      "source": "-536515674",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-2121949613"
+    },
+    "-1561523259": {
+      "source": "-536515674",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "JwtModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-1561523259"
+    },
+    "-2016448962": {
+      "source": "1482218087",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-2016448962"
+    },
+    "-1929299820": {
+      "source": "1482218087",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-1929299820"
+    },
+    "-1390355060": {
+      "source": "1482218087",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-1390355060"
+    },
+    "-1899228874": {
+      "source": "1482218087",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-1899228874"
+    },
+    "-1956740476": {
+      "source": "1482218087",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ThrottlerModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-1956740476"
+    },
+    "-50008508": {
+      "source": "1712628187",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-50008508"
+    },
+    "-1446266240": {
+      "source": "1712628187",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-1446266240"
+    },
+    "-1995183955": {
+      "source": "211572259",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigHostModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1995183955"
+    },
+    "-60954175": {
+      "source": "211572259",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigHostModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-60954175"
+    },
+    "-718282705": {
+      "source": "211572259",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigHostModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-718282705"
+    },
+    "-744522493": {
+      "source": "211572259",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigHostModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-744522493"
+    },
+    "-965574076": {
+      "source": "-1854488870",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-965574076"
+    },
+    "-1609155518": {
+      "source": "-1854488870",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1609155518"
+    },
+    "-754254170": {
+      "source": "-1854488870",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-754254170"
+    },
+    "-172905197": {
+      "source": "-1854488870",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-172905197"
+    },
+    "-1924545282": {
+      "source": "-1854488870",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-1924545282"
+    },
+    "-412313242": {
+      "source": "-1854488870",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-412313242"
+    },
+    "-1712357468": {
+      "source": "-1350909915",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseCoreModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-1712357468"
+    },
+    "-890088846": {
+      "source": "-1350909915",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseCoreModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-890088846"
+    },
+    "-1050576452": {
+      "source": "-1350909915",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "MongooseCoreModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-1050576452"
+    },
+    "-1982558226": {
+      "source": "863216333",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1982558226"
+    },
+    "-282073552": {
+      "source": "863216333",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-282073552"
+    },
+    "-1986399066": {
+      "source": "863216333",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ConfigModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-1986399066"
+    },
+    "-276902814": {
+      "source": "-949539487",
+      "target": "863216333",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CacheModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-276902814"
+    },
+    "-1995562322": {
+      "source": "-949539487",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CacheModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1995562322"
+    },
+    "-1356015334": {
+      "source": "-949539487",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CacheModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-1356015334"
+    },
+    "-431539039": {
+      "source": "-949539487",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CacheModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-431539039"
+    },
+    "-455517402": {
+      "source": "-949539487",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "CacheModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-455517402"
+    },
+    "-1943914540": {
+      "source": "1132538855",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseAdminModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-1943914540"
+    },
+    "-937538036": {
+      "source": "1132538855",
+      "target": "1482218087",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseAdminModule",
+        "targetModuleName": "ThrottlerModule"
+      },
+      "id": "-937538036"
+    },
+    "-1008364985": {
+      "source": "1132538855",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseAdminModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-1008364985"
+    },
+    "-1972242564": {
+      "source": "1132538855",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseAdminModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-1972242564"
+    },
+    "-2072355174": {
+      "source": "1132538855",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "FirebaseAdminModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-2072355174"
+    },
+    "-1852947866": {
+      "source": "-1001049395",
+      "target": "-643397745",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "EventEmitterModule",
+        "targetModuleName": "DiscoveryModule"
+      },
+      "id": "-1852947866"
+    },
+    "-1650178572": {
+      "source": "-1001049395",
+      "target": "-1350909915",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "EventEmitterModule",
+        "targetModuleName": "MongooseCoreModule"
+      },
+      "id": "-1650178572"
+    },
+    "-1107570771": {
+      "source": "-643397745",
+      "target": "211572259",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DiscoveryModule",
+        "targetModuleName": "ConfigHostModule"
+      },
+      "id": "-1107570771"
+    },
+    "-610424616": {
+      "source": "-643397745",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DiscoveryModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-610424616"
+    },
+    "-659194496": {
+      "source": "-643397745",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "DiscoveryModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-659194496"
+    },
+    "-734493696": {
+      "source": "303754800",
+      "target": "555176277",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScheduleModule",
+        "targetModuleName": "InternalCoreModule"
+      },
+      "id": "-734493696"
+    },
+    "-1573745964": {
+      "source": "303754800",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScheduleModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-1573745964"
+    },
+    "-998946238": {
+      "source": "303754800",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScheduleModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-998946238"
+    },
+    "-2092775152": {
+      "source": "303754800",
+      "target": "1132538855",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "ScheduleModule",
+        "targetModuleName": "FirebaseAdminModule"
+      },
+      "id": "-2092775152"
+    },
+    "-925763227": {
+      "source": "186171501",
+      "target": "1712628187",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "ConfigModule"
+      },
+      "id": "-925763227"
+    },
+    "-118250891": {
+      "source": "186171501",
+      "target": "-949539487",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "CacheModule"
+      },
+      "id": "-118250891"
+    },
+    "-1088803975": {
+      "source": "186171501",
+      "target": "-1001049395",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "EventEmitterModule"
+      },
+      "id": "-1088803975"
+    },
+    "-2120395513": {
+      "source": "186171501",
+      "target": "303754800",
+      "metadata": {
+        "type": "module-to-module",
+        "sourceModuleName": "TasksModule",
+        "targetModuleName": "ScheduleModule"
+      },
+      "id": "-2120395513"
+    },
+    "-945562845": {
+      "source": "1404752088",
+      "target": "-239266870",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "AuthModule",
+        "sourceClassName": "AuthController",
+        "targetClassName": "JwtAuthGuard",
+        "sourceClassToken": "AuthController",
+        "targetClassToken": "JwtAuthGuard",
+        "targetModuleName": "AuthModule",
+        "injectionType": "decorator"
+      },
+      "id": "-945562845"
+    },
+    "-797318251": {
+      "source": "-1056340138",
+      "target": "-2070751084",
+      "metadata": {
+        "type": "class-to-class",
+        "sourceModuleName": "FirebaseModule",
+        "sourceClassName": "FirebaseController",
+        "targetClassName": "ab24ba9d8e3b6208085de",
+        "sourceClassToken": "FirebaseController",
+        "targetClassToken": "ab24ba9d8e3b6208085de",
+        "targetModuleName": "FirebaseModule",
+        "injectionType": "decorator"
+      },
+      "id": "-797318251"
+    }
+  },
+  "entrypoints": {
+    "233936880": [
+      {
+        "type": "http-endpoint",
+        "methodName": "getHello",
+        "className": "AppController",
+        "classNodeId": "233936880",
+        "metadata": {
+          "key": "/",
+          "path": "/",
+          "requestMethod": "GET"
+        },
+        "id": "233936880_getHello"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "getService",
+        "className": "AppController",
+        "classNodeId": "233936880",
+        "metadata": {
+          "key": "/8",
+          "path": "/8",
+          "requestMethod": "GET"
+        },
+        "id": "233936880_getService"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "getENVKEY",
+        "className": "AppController",
+        "classNodeId": "233936880",
+        "metadata": {
+          "key": "/apiKey",
+          "path": "/apiKey",
+          "requestMethod": "GET"
+        },
+        "id": "233936880_getENVKEY"
+      }
+    ],
+    "700230682": [
+      {
+        "type": "http-endpoint",
+        "methodName": "loglog",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/usersFire",
+          "path": "/book/usersFire",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_loglog"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "findAll",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book",
+          "path": "/book",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_findAll"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "findBook",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/one",
+          "path": "/book/one",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_findBook"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "findAllAuthors",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/authors",
+          "path": "/book/authors",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_findAllAuthors"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "create",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book",
+          "path": "/book",
+          "requestMethod": "POST"
+        },
+        "id": "700230682_create"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "updateBook",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/upateOne",
+          "path": "/book/upateOne",
+          "requestMethod": "POST"
+        },
+        "id": "700230682_updateBook"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "updateAuthors",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/authorsUpdate",
+          "path": "/book/authorsUpdate",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_updateAuthors"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "countAll",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/countAll",
+          "path": "/book/countAll",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_countAll"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "booksTime",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/booksTime",
+          "path": "/book/booksTime",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_booksTime"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "authorBooks",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/authorBooks",
+          "path": "/book/authorBooks",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_authorBooks"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "booksOwners",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/booksOwners",
+          "path": "/book/booksOwners",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_booksOwners"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "authorProfit",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/profit",
+          "path": "/book/profit",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_authorProfit"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "recentPublished",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/recentPublished",
+          "path": "/book/recentPublished",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_recentPublished"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "rateCheck",
+        "className": "BookController",
+        "classNodeId": "700230682",
+        "metadata": {
+          "key": "/book/ratecheck",
+          "path": "/book/ratecheck",
+          "requestMethod": "GET"
+        },
+        "id": "700230682_rateCheck"
+      }
+    ],
+    "1404752088": [
+      {
+        "type": "http-endpoint",
+        "methodName": "profile",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/auth/profile",
+          "path": "/auth/profile",
+          "requestMethod": "GET"
+        },
+        "id": "1404752088_profile"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "subscripe",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/auth/subscripe",
+          "path": "/auth/subscripe",
+          "requestMethod": "GET"
+        },
+        "id": "1404752088_subscripe"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "changepassword",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/auth/changepassword",
+          "path": "/auth/changepassword",
+          "requestMethod": "POST"
+        },
+        "id": "1404752088_changepassword"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "login",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/auth/login",
+          "path": "/auth/login",
+          "requestMethod": "POST"
+        },
+        "id": "1404752088_login"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "register",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/auth/register",
+          "path": "/auth/register",
+          "requestMethod": "POST"
+        },
+        "id": "1404752088_register"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "forgetpassword",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/auth/forgetpassword",
+          "path": "/auth/forgetpassword",
+          "requestMethod": "POST"
+        },
+        "id": "1404752088_forgetpassword"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "resetPassword",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/auth/resetpassword",
+          "path": "/auth/resetpassword",
+          "requestMethod": "POST"
+        },
+        "id": "1404752088_resetPassword"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "deleteUser",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/auth/deleteUser",
+          "path": "/auth/deleteUser",
+          "requestMethod": "DELETE"
+        },
+        "id": "1404752088_deleteUser"
+      },
+      {
+        "type": "http-endpoint",
+        "methodName": "report",
+        "className": "AuthController",
+        "classNodeId": "1404752088",
+        "metadata": {
+          "key": "/auth/report",
+          "path": "/auth/report",
+          "requestMethod": "GET"
+        },
+        "id": "1404752088_report"
+      }
+    ],
+    "-1056340138": [
+      {
+        "type": "http-endpoint",
+        "methodName": "uploadFiles",
+        "className": "FirebaseController",
+        "classNodeId": "-1056340138",
+        "metadata": {
+          "key": "/upload/:path",
+          "path": "/upload/:path",
+          "requestMethod": "POST"
+        },
+        "id": "-1056340138_uploadFiles"
+      }
+    ]
+  },
+  "extras": {
+    "orphanedEnhancers": [
+      {
+        "subtype": "pipe",
+        "ref": "ValidationPipe"
+      },
+      {
+        "subtype": "filter",
+        "ref": "AllExceptionsFilter"
+      },
+      {
+        "subtype": "interceptor",
+        "ref": "LoggingInterceptor"
+      }
+    ],
+    "attachedEnhancers": []
+  },
+  "status": "complete"
+}
