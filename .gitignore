@@ -39,3 +39,4 @@ lerna-debug.log*
 src/modules/simplifi/
 functions/
 .scannerwork
+/env

@@ -25,6 +25,7 @@ import { UserLogsModule } from './modules/userLogs/userLogs.module';
 import { TasksModule } from './modules/tasks/tasks.module';
 // import { SimplifiModule } from './modules/simplifi/simplifi.module';
 import simplifiConfig from './config/simplifi.config';
+import apiConfig from './config/api.config';
 
 const serviceAccount = require('../serviceAccountKey.json');
 
@@ -39,12 +40,14 @@ const serviceAccount = require('../serviceAccountKey.json');
     //   http: process.env.NODE_ENV !== 'production',
     // }),
     ConfigModule.forRoot({
+      envFilePath: `${process.cwd()}/env/${process.env.NODE_ENV}.env`,
       load: [
         jwtConfig,
         databaseConfig,
         redisConfig,
         firebaseConfig,
         simplifiConfig,
+        apiConfig,
       ],
       isGlobal: true,
       cache: true,
