@@ -39,7 +39,7 @@ JWT_SECRET=your_jwt_secret
 PORT=3000
 ```
 ▶️ Running the Project
-`npm run start:dev`
+```npm run start:dev```
 
 
 📝 Notes
