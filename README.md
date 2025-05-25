@@ -1,5 +1,5 @@
 
-# NestAuthAPI
+# NestTaskAPI
 
 A modular, scalable backend API built with **NestJS** and **MongoDB** demonstrating user authentication with JWT and clean architecture.
 
